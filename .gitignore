@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# index data + cloned repos
+.cie_data/
+eval/.cache/

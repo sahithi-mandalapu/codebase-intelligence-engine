@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codebase-intelligence-engine"
+version = "0.1.0"
+description = "Ask questions about a GitHub repo. Hybrid retrieval (embeddings + BM25) combined with an AST-based code graph."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn>=0.27",
+    "numpy>=1.24",
+    "networkx>=3.0",
+    "pydantic>=2.0",
+]
+
+[project.optional-dependencies]
+# real embeddings + cross-encoder reranker (downloads models on first run)
+st = ["sentence-transformers>=2.7"]
+qdrant = ["qdrant-client>=1.9"]
+redis = ["redis>=5.0"]
+llm = ["anthropic>=0.30", "openai>=1.30"]
+dev = ["pytest>=8.0", "httpx>=0.27", "qdrant-client>=1.9", "redis>=5.0", "fakeredis>=2.20"]
+
+[project.scripts]
+cie = "cie.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["cie*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

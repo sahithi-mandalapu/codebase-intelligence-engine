@@ -1,0 +1,32 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      CIE_VECTOR_STORE: qdrant
+      CIE_QDRANT_URL: http://qdrant:6333
+      CIE_REDIS_URL: redis://redis:6379/0
+      CIE_EMBEDDER: hash        # switch to st for real embeddings (needs sentence-transformers installed)
+      CIE_LLM: none             # anthropic | openai, then set the matching API key below
+      # ANTHROPIC_API_KEY: ...
+      # GITHUB_WEBHOOK_SECRET: ...
+    volumes:
+      - cie_data:/data
+    depends_on:
+      - qdrant
+      - redis
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_data:/qdrant/storage
+
+  redis:
+    image: redis:7-alpine
+
+volumes:
+  cie_data:
+  qdrant_data:
