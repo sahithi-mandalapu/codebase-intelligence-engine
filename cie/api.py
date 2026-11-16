@@ -5,7 +5,7 @@ import os
 from fastapi import BackgroundTasks, FastAPI, HTTPException, Request
 from pydantic import BaseModel
 
-from . import __version__
+from ._version import __version__
 from .config import Settings
 from .qa import Engine
 
