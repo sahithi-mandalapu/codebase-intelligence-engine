@@ -1,0 +1,1696 @@
+[
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Decodes the JSON response body (if any) as a Python object.",
+  "relevant": [
+   {
+    "path": "src/requests/models.py",
+    "qualname": "Response.json"
+   }
+  ],
+  "id": "q000"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: Subtype asserting a PreparedRequest has been fully prepared before calling.",
+  "relevant": [
+   {
+    "path": "src/requests/_types.py",
+    "qualname": "_ValidatedRequest"
+   }
+  ],
+  "id": "q001"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: The fully mutable :class:`PreparedRequest <PreparedRequest>` object, containing the exact bytes that will be sent to the server.",
+  "relevant": [
+   {
+    "path": "src/requests/models.py",
+    "qualname": "PreparedRequest"
+   }
+  ],
+  "id": "q002"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Takes the given response and tries digest-auth, if needed.",
+  "relevant": [
+   {
+    "path": "src/requests/auth.py",
+    "qualname": "HTTPDigestAuth.handle_401"
+   }
+  ],
+  "id": "q003"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: The server declared chunked encoding but sent an invalid chunk.",
+  "relevant": [
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "ChunkedEncodingError"
+   }
+  ],
+  "id": "q004"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Returns a Basic Auth string.",
+  "relevant": [
+   {
+    "path": "src/requests/auth.py",
+    "qualname": "_basic_auth_str"
+   }
+  ],
+  "id": "q005"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Return the CookiePolicy instance used.",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "RequestsCookieJar.get_policy"
+   }
+  ],
+  "id": "q006"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: The apparent encoding, provided by the charset_normalizer or chardet libraries.",
+  "relevant": [
+   {
+    "path": "src/requests/models.py",
+    "qualname": "Response.apparent_encoding"
+   }
+  ],
+  "id": "q007"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Dict-like items() that returns a list of name-value tuples from the jar.",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "RequestsCookieJar.items"
+   }
+  ],
+  "id": "q008"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: Requests encountered an error when trying to rewind a body.",
+  "relevant": [
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "UnrewindableBodyError"
+   }
+  ],
+  "id": "q009"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Pretty-print the bug information as JSON.",
+  "relevant": [
+   {
+    "path": "src/requests/help.py",
+    "qualname": "main"
+   }
+  ],
+  "id": "q010"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Returns whether we should bypass proxies or not.",
+  "relevant": [
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "should_bypass_proxies"
+   }
+  ],
+  "id": "q011"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Make a cookie from underspecified parameters.",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "create_cookie"
+   }
+  ],
+  "id": "q012"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Updates this jar with cookies from another CookieJar or dict-like",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "RequestsCookieJar.update"
+   }
+  ],
+  "id": "q013"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: There are two cookies that meet the criteria specified in the cookie jar.",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "CookieConflictError"
+   }
+  ],
+  "id": "q014"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Prepares the given HTTP headers.",
+  "relevant": [
+   {
+    "path": "src/requests/models.py",
+    "qualname": "PreparedRequest.prepare_headers"
+   }
+  ],
+  "id": "q015"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Dict-like set() that also supports optional domain and path args in order to resolve naming collisions from using one cookie jar over multiple domains.",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "RequestsCookieJar.set"
+   }
+  ],
+  "id": "q016"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Returns True if there are multiple domains in the jar.",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "RequestsCookieJar.multiple_domains"
+   }
+  ],
+  "id": "q017"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Dict-like iterkeys() that returns an iterator of names of cookies from the jar.",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "RequestsCookieJar.iterkeys"
+   }
+  ],
+  "id": "q018"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: This method takes proxy information from a request and configuration input to resolve a mapping of target proxies.",
+  "relevant": [
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "resolve_proxies"
+   }
+  ],
+  "id": "q019"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Parse lists as described by RFC 2068 Section 2.",
+  "relevant": [
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "parse_list_header"
+   }
+  ],
+  "id": "q020"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: The URL scheme provided is either invalid or unsupported.",
+  "relevant": [
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "InvalidSchema"
+   }
+  ],
+  "id": "q021"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Returns encodings from given content string.",
+  "relevant": [
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "get_encodings_from_content"
+   }
+  ],
+  "id": "q022"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: An imported dependency doesn't match the expected version range.",
+  "relevant": [
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "RequestsDependencyWarning"
+   }
+  ],
+  "id": "q023"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Returns encodings from given HTTP Header Dict.",
+  "relevant": [
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "get_encoding_from_headers"
+   }
+  ],
+  "id": "q024"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Dict-like iteritems() that returns an iterator of name-value tuples from the jar.",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "RequestsCookieJar.iteritems"
+   }
+  ],
+  "id": "q025"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Write a file to the disk in an atomic fashion",
+  "relevant": [
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "atomic_open"
+   }
+  ],
+  "id": "q026"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: A user-created :class:`Request <Request>` object.",
+  "relevant": [
+   {
+    "path": "src/requests/models.py",
+    "qualname": "Request"
+   }
+  ],
+  "id": "q027"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Very simple check of the cidr format in no_proxy variable.",
+  "relevant": [
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "is_valid_cidr"
+   }
+  ],
+  "id": "q028"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Select a proxy for the url, if applicable.",
+  "relevant": [
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "select_proxy"
+   }
+  ],
+  "id": "q029"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: The request timed out while trying to connect to the remote server.",
+  "relevant": [
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "ConnectTimeout"
+   }
+  ],
+  "id": "q030"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Prepares the given HTTP URL.",
+  "relevant": [
+   {
+    "path": "src/requests/models.py",
+    "qualname": "PreparedRequest.prepare_url"
+   }
+  ],
+  "id": "q031"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Find supported character detection libraries.",
+  "relevant": [
+   {
+    "path": "src/requests/compat.py",
+    "qualname": "_resolve_char_detection"
+   }
+  ],
+  "id": "q032"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Requests uses this method internally to get cookie values.",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "RequestsCookieJar._find"
+   }
+  ],
+  "id": "q033"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: Wraps a `requests.PreparedRequest` to mimic a `urllib2.Request`.",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "MockRequest"
+   }
+  ],
+  "id": "q034"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: The server did not send any data in the allotted amount of time.",
+  "relevant": [
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "ReadTimeout"
+   }
+  ],
+  "id": "q035"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `build_connection_pool_key_attributes`.",
+  "relevant": [
+   {
+    "path": "src/requests/adapters.py",
+    "qualname": "HTTPAdapter.build_connection_pool_key_attributes"
+   }
+  ],
+  "id": "q036"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `_basic_auth_str` defined?",
+  "relevant": [
+   {
+    "path": "src/requests/auth.py",
+    "qualname": "_basic_auth_str"
+   }
+  ],
+  "id": "q037"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `prepare_body`.",
+  "relevant": [
+   {
+    "path": "src/requests/models.py",
+    "qualname": "PreparedRequest.prepare_body"
+   }
+  ],
+  "id": "q038"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `add_dict_to_cookiejar` defined?",
+  "relevant": [
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "add_dict_to_cookiejar"
+   }
+  ],
+  "id": "q039"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `prepend_scheme_if_needed`.",
+  "relevant": [
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "prepend_scheme_if_needed"
+   }
+  ],
+  "id": "q040"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `check_header_validity` defined?",
+  "relevant": [
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "check_header_validity"
+   }
+  ],
+  "id": "q041"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `default_hooks`.",
+  "relevant": [
+   {
+    "path": "src/requests/hooks.py",
+    "qualname": "default_hooks"
+   }
+  ],
+  "id": "q042"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `get_environ_proxies` defined?",
+  "relevant": [
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "get_environ_proxies"
+   }
+  ],
+  "id": "q043"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `get_full_url`.",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "MockRequest.get_full_url"
+   }
+  ],
+  "id": "q044"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `get_redirect_target` defined?",
+  "relevant": [
+   {
+    "path": "src/requests/sessions.py",
+    "qualname": "SessionRedirectMixin.get_redirect_target"
+   }
+  ],
+  "id": "q045"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `get_origin_req_host`.",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "MockRequest.get_origin_req_host"
+   }
+  ],
+  "id": "q046"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `should_strip_auth` defined?",
+  "relevant": [
+   {
+    "path": "src/requests/sessions.py",
+    "qualname": "SessionRedirectMixin.should_strip_auth"
+   }
+  ],
+  "id": "q047"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `_resolve_char_detection` defined?",
+  "relevant": [
+   {
+    "path": "src/requests/compat.py",
+    "qualname": "_resolve_char_detection"
+   }
+  ],
+  "id": "q048"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `links`.",
+  "relevant": [
+   {
+    "path": "src/requests/models.py",
+    "qualname": "Response.links"
+   }
+  ],
+  "id": "q049"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `CookieConflictError`.",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "CookieConflictError"
+   }
+  ],
+  "id": "q050"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `options` defined?",
+  "relevant": [
+   {
+    "path": "src/requests/sessions.py",
+    "qualname": "Session.options"
+   }
+  ],
+  "id": "q051"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `DataKwargs` defined?",
+  "relevant": [
+   {
+    "path": "src/requests/_types.py",
+    "qualname": "DataKwargs"
+   }
+  ],
+  "id": "q052"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `unquote_header_value`.",
+  "relevant": [
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "unquote_header_value"
+   }
+  ],
+  "id": "q053"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `_encode_files` called from?",
+  "relevant": [
+   {
+    "path": "src/requests/models.py",
+    "qualname": "PreparedRequest.prepare_body"
+   }
+  ],
+  "id": "q054"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `extract_cookies_to_jar` called from?",
+  "relevant": [
+   {
+    "path": "src/requests/adapters.py",
+    "qualname": "HTTPAdapter.build_response"
+   },
+   {
+    "path": "src/requests/auth.py",
+    "qualname": "HTTPDigestAuth.handle_401"
+   },
+   {
+    "path": "src/requests/sessions.py",
+    "qualname": "Session.send"
+   },
+   {
+    "path": "src/requests/sessions.py",
+    "qualname": "SessionRedirectMixin.resolve_redirects"
+   }
+  ],
+  "id": "q055"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `has_read`?",
+  "relevant": [
+   {
+    "path": "src/requests/models.py",
+    "qualname": "PreparedRequest.prepare_body"
+   },
+   {
+    "path": "src/requests/models.py",
+    "qualname": "RequestEncodingMixin._encode_files"
+   },
+   {
+    "path": "src/requests/models.py",
+    "qualname": "RequestEncodingMixin._encode_params"
+   }
+  ],
+  "id": "q056"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `get_adapter`?",
+  "relevant": [
+   {
+    "path": "src/requests/sessions.py",
+    "qualname": "Session.send"
+   }
+  ],
+  "id": "q057"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `iterkeys`?",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "RequestsCookieJar.keys"
+   }
+  ],
+  "id": "q058"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `prepare_url`?",
+  "relevant": [
+   {
+    "path": "src/requests/models.py",
+    "qualname": "PreparedRequest.prepare"
+   }
+  ],
+  "id": "q059"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `get_policy`?",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "RequestsCookieJar.copy"
+   }
+  ],
+  "id": "q060"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `merge_cookies`?",
+  "relevant": [
+   {
+    "path": "src/requests/sessions.py",
+    "qualname": "Session.prepare_request"
+   },
+   {
+    "path": "src/requests/sessions.py",
+    "qualname": "SessionRedirectMixin.resolve_redirects"
+   }
+  ],
+  "id": "q061"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `prepare_hooks`?",
+  "relevant": [
+   {
+    "path": "src/requests/models.py",
+    "qualname": "PreparedRequest.prepare"
+   }
+  ],
+  "id": "q062"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `parse_dict_header`?",
+  "relevant": [
+   {
+    "path": "src/requests/auth.py",
+    "qualname": "HTTPDigestAuth.handle_401"
+   }
+  ],
+  "id": "q063"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `register_hook`?",
+  "relevant": [
+   {
+    "path": "src/requests/auth.py",
+    "qualname": "HTTPDigestAuth.__call__"
+   },
+   {
+    "path": "src/requests/models.py",
+    "qualname": "PreparedRequest.prepare_hooks"
+   },
+   {
+    "path": "src/requests/models.py",
+    "qualname": "Request.__init__"
+   }
+  ],
+  "id": "q064"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `unicode_is_ascii`?",
+  "relevant": [
+   {
+    "path": "src/requests/models.py",
+    "qualname": "PreparedRequest.prepare_url"
+   }
+  ],
+  "id": "q065"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `is_valid_cidr` called from?",
+  "relevant": [
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "should_bypass_proxies"
+   }
+  ],
+  "id": "q066"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `request_url`?",
+  "relevant": [
+   {
+    "path": "src/requests/adapters.py",
+    "qualname": "HTTPAdapter.send"
+   }
+  ],
+  "id": "q067"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `build_digest_header` called from?",
+  "relevant": [
+   {
+    "path": "src/requests/auth.py",
+    "qualname": "HTTPDigestAuth.__call__"
+   },
+   {
+    "path": "src/requests/auth.py",
+    "qualname": "HTTPDigestAuth.handle_401"
+   }
+  ],
+  "id": "q068"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `_parse_content_type_header`?",
+  "relevant": [
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "get_encoding_from_headers"
+   }
+  ],
+  "id": "q069"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `_urllib3_request_context` called from?",
+  "relevant": [
+   {
+    "path": "src/requests/adapters.py",
+    "qualname": "HTTPAdapter.build_connection_pool_key_attributes"
+   }
+  ],
+  "id": "q070"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `prepare_method`?",
+  "relevant": [
+   {
+    "path": "src/requests/models.py",
+    "qualname": "PreparedRequest.prepare"
+   }
+  ],
+  "id": "q071"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `resolve_proxies` called from?",
+  "relevant": [
+   {
+    "path": "src/requests/sessions.py",
+    "qualname": "Session.send"
+   },
+   {
+    "path": "src/requests/sessions.py",
+    "qualname": "SessionRedirectMixin.rebuild_proxies"
+   }
+  ],
+  "id": "q072"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `itervalues` called from?",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "RequestsCookieJar.values"
+   }
+  ],
+  "id": "q073"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `resolve_redirects`?",
+  "relevant": [
+   {
+    "path": "src/requests/sessions.py",
+    "qualname": "Session.send"
+   }
+  ],
+  "id": "q074"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `prepare_body` called from?",
+  "relevant": [
+   {
+    "path": "src/requests/models.py",
+    "qualname": "PreparedRequest.prepare"
+   }
+  ],
+  "id": "q075"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `get_connection_with_tls_context`?",
+  "relevant": [
+   {
+    "path": "src/requests/adapters.py",
+    "qualname": "HTTPAdapter.send"
+   }
+  ],
+  "id": "q076"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `add_headers`?",
+  "relevant": [
+   {
+    "path": "src/requests/adapters.py",
+    "qualname": "HTTPAdapter.send"
+   }
+  ],
+  "id": "q077"
+ },
+ {
+  "type": "callees",
+  "question": "What does `_encode_files` call?",
+  "relevant": [
+   {
+    "path": "src/requests/_types.py",
+    "qualname": "has_read"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "guess_filename"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "to_key_val_list"
+   }
+  ],
+  "id": "q078"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `merge_environment_settings` call?",
+  "relevant": [
+   {
+    "path": "src/requests/sessions.py",
+    "qualname": "merge_setting"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "get_environ_proxies"
+   }
+  ],
+  "id": "q079"
+ },
+ {
+  "type": "callees",
+  "question": "What does `prepare_body` call?",
+  "relevant": [
+   {
+    "path": "src/requests/_types.py",
+    "qualname": "has_read"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "InvalidJSONError"
+   },
+   {
+    "path": "src/requests/models.py",
+    "qualname": "PreparedRequest.prepare_content_length"
+   },
+   {
+    "path": "src/requests/models.py",
+    "qualname": "RequestEncodingMixin._encode_files"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "super_len"
+   }
+  ],
+  "id": "q080"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `extract_cookies_to_jar` call?",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "MockRequest"
+   },
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "MockResponse"
+   }
+  ],
+  "id": "q081"
+ },
+ {
+  "type": "callees",
+  "question": "What does `proxy_headers` call?",
+  "relevant": [
+   {
+    "path": "src/requests/auth.py",
+    "qualname": "_basic_auth_str"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "get_auth_from_url"
+   }
+  ],
+  "id": "q082"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `get_connection` call?",
+  "relevant": [
+   {
+    "path": "src/requests/adapters.py",
+    "qualname": "HTTPAdapter.proxy_manager_for"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "InvalidProxyURL"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "prepend_scheme_if_needed"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "select_proxy"
+   }
+  ],
+  "id": "q083"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `prepare_auth` call?",
+  "relevant": [
+   {
+    "path": "src/requests/auth.py",
+    "qualname": "HTTPBasicAuth"
+   },
+   {
+    "path": "src/requests/models.py",
+    "qualname": "PreparedRequest.prepare_content_length"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "get_auth_from_url"
+   }
+  ],
+  "id": "q084"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `json` call?",
+  "relevant": [
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "JSONDecodeError"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "guess_json_utf"
+   }
+  ],
+  "id": "q085"
+ },
+ {
+  "type": "callees",
+  "question": "What does `resolve_proxies` call?",
+  "relevant": [
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "get_environ_proxies"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "should_bypass_proxies"
+   }
+  ],
+  "id": "q086"
+ },
+ {
+  "type": "callees",
+  "question": "What does `merge_cookies` call?",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "RequestsCookieJar.set_cookie"
+   },
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "cookiejar_from_dict"
+   }
+  ],
+  "id": "q087"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `prepare_cookies` call?",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "cookiejar_from_dict"
+   },
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "get_cookie_header"
+   }
+  ],
+  "id": "q088"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `prepare_url` call?",
+  "relevant": [
+   {
+    "path": "src/requests/_internal_utils.py",
+    "qualname": "to_native_string"
+   },
+   {
+    "path": "src/requests/_internal_utils.py",
+    "qualname": "unicode_is_ascii"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "InvalidURL"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "MissingSchema"
+   },
+   {
+    "path": "src/requests/models.py",
+    "qualname": "PreparedRequest._get_idna_encoded_host"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "requote_uri"
+   }
+  ],
+  "id": "q089"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `rebuild_auth` call?",
+  "relevant": [
+   {
+    "path": "src/requests/_types.py",
+    "qualname": "is_prepared"
+   },
+   {
+    "path": "src/requests/models.py",
+    "qualname": "PreparedRequest.prepare_auth"
+   },
+   {
+    "path": "src/requests/sessions.py",
+    "qualname": "SessionRedirectMixin.should_strip_auth"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "get_netrc_auth"
+   }
+  ],
+  "id": "q090"
+ },
+ {
+  "type": "callees",
+  "question": "What does `request_url` call?",
+  "relevant": [
+   {
+    "path": "src/requests/_types.py",
+    "qualname": "is_prepared"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "select_proxy"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "urldefragauth"
+   }
+  ],
+  "id": "q091"
+ },
+ {
+  "type": "callees",
+  "question": "What does `default_headers` call?",
+  "relevant": [
+   {
+    "path": "src/requests/structures.py",
+    "qualname": "CaseInsensitiveDict"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "default_user_agent"
+   }
+  ],
+  "id": "q092"
+ },
+ {
+  "type": "callees",
+  "question": "What does `proxy_manager_for` call?",
+  "relevant": [
+   {
+    "path": "src/requests/adapters.py",
+    "qualname": "HTTPAdapter.proxy_headers"
+   },
+   {
+    "path": "src/requests/adapters.py",
+    "qualname": "SOCKSProxyManager"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "get_auth_from_url"
+   }
+  ],
+  "id": "q093"
+ },
+ {
+  "type": "callees",
+  "question": "What does `get_cookie_header` call?",
+  "relevant": [
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "MockRequest"
+   },
+   {
+    "path": "src/requests/cookies.py",
+    "qualname": "MockRequest.get_new_headers"
+   }
+  ],
+  "id": "q094"
+ },
+ {
+  "type": "callees",
+  "question": "What does `should_bypass_proxies` call?",
+  "relevant": [
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "address_in_network"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "is_ipv4_address"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "is_valid_cidr"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "proxy_bypass"
+   },
+   {
+    "path": "src/requests/utils.py",
+    "qualname": "set_environ"
+   }
+  ],
+  "id": "q095"
+ },
+ {
+  "type": "imports",
+  "question": "Which files import `src/requests/sessions.py`?",
+  "relevant": [
+   {
+    "path": "src/requests/__init__.py"
+   },
+   {
+    "path": "src/requests/api.py"
+   }
+  ],
+  "id": "q096"
+ },
+ {
+  "type": "imports",
+  "question": "What imports `src/requests/_types.py`?",
+  "relevant": [
+   {
+    "path": "src/requests/adapters.py"
+   },
+   {
+    "path": "src/requests/api.py"
+   },
+   {
+    "path": "src/requests/cookies.py"
+   },
+   {
+    "path": "src/requests/hooks.py"
+   },
+   {
+    "path": "src/requests/models.py"
+   },
+   {
+    "path": "src/requests/sessions.py"
+   },
+   {
+    "path": "src/requests/utils.py"
+   }
+  ],
+  "id": "q097"
+ },
+ {
+  "type": "imports",
+  "question": "Which files import `src/requests/utils.py`?",
+  "relevant": [
+   {
+    "path": "src/requests/__init__.py"
+   },
+   {
+    "path": "src/requests/adapters.py"
+   },
+   {
+    "path": "src/requests/auth.py"
+   },
+   {
+    "path": "src/requests/models.py"
+   },
+   {
+    "path": "src/requests/sessions.py"
+   }
+  ],
+  "id": "q098"
+ },
+ {
+  "type": "imports",
+  "question": "What imports `src/requests/cookies.py`?",
+  "relevant": [
+   {
+    "path": "src/requests/_types.py"
+   },
+   {
+    "path": "src/requests/adapters.py"
+   },
+   {
+    "path": "src/requests/auth.py"
+   },
+   {
+    "path": "src/requests/models.py"
+   },
+   {
+    "path": "src/requests/sessions.py"
+   },
+   {
+    "path": "src/requests/utils.py"
+   }
+  ],
+  "id": "q099"
+ },
+ {
+  "type": "imports",
+  "question": "Which files import `src/requests/adapters.py`?",
+  "relevant": [
+   {
+    "path": "src/requests/models.py"
+   },
+   {
+    "path": "src/requests/sessions.py"
+   }
+  ],
+  "id": "q100"
+ },
+ {
+  "type": "imports",
+  "question": "Which files import `src/requests/auth.py`?",
+  "relevant": [
+   {
+    "path": "src/requests/_types.py"
+   },
+   {
+    "path": "src/requests/adapters.py"
+   },
+   {
+    "path": "src/requests/models.py"
+   },
+   {
+    "path": "src/requests/sessions.py"
+   }
+  ],
+  "id": "q101"
+ },
+ {
+  "type": "imports",
+  "question": "Which files import `src/requests/structures.py`?",
+  "relevant": [
+   {
+    "path": "src/requests/_types.py"
+   },
+   {
+    "path": "src/requests/adapters.py"
+   },
+   {
+    "path": "src/requests/models.py"
+   },
+   {
+    "path": "src/requests/sessions.py"
+   },
+   {
+    "path": "src/requests/status_codes.py"
+   },
+   {
+    "path": "src/requests/utils.py"
+   }
+  ],
+  "id": "q102"
+ },
+ {
+  "type": "imports",
+  "question": "Which files import `src/requests/exceptions.py`?",
+  "relevant": [
+   {
+    "path": "src/requests/__init__.py"
+   },
+   {
+    "path": "src/requests/adapters.py"
+   },
+   {
+    "path": "src/requests/models.py"
+   },
+   {
+    "path": "src/requests/sessions.py"
+   },
+   {
+    "path": "src/requests/utils.py"
+   }
+  ],
+  "id": "q103"
+ },
+ {
+  "type": "imports",
+  "question": "Which files import `src/requests/_internal_utils.py`?",
+  "relevant": [
+   {
+    "path": "src/requests/auth.py"
+   },
+   {
+    "path": "src/requests/cookies.py"
+   },
+   {
+    "path": "src/requests/models.py"
+   },
+   {
+    "path": "src/requests/sessions.py"
+   },
+   {
+    "path": "src/requests/utils.py"
+   }
+  ],
+  "id": "q104"
+ },
+ {
+  "type": "imports",
+  "question": "Which files import `src/requests/__version__.py`?",
+  "relevant": [
+   {
+    "path": "src/requests/__init__.py"
+   },
+   {
+    "path": "src/requests/help.py"
+   },
+   {
+    "path": "src/requests/utils.py"
+   }
+  ],
+  "id": "q105"
+ },
+ {
+  "type": "imports",
+  "question": "What imports `src/requests/hooks.py`?",
+  "relevant": [
+   {
+    "path": "src/requests/models.py"
+   },
+   {
+    "path": "src/requests/sessions.py"
+   }
+  ],
+  "id": "q106"
+ },
+ {
+  "type": "imports",
+  "question": "What imports `src/requests/status_codes.py`?",
+  "relevant": [
+   {
+    "path": "src/requests/__init__.py"
+   },
+   {
+    "path": "src/requests/models.py"
+   },
+   {
+    "path": "src/requests/sessions.py"
+   }
+  ],
+  "id": "q107"
+ },
+ {
+  "type": "inherits",
+  "question": "What are the subclasses of `SessionRedirectMixin`?",
+  "relevant": [
+   {
+    "path": "src/requests/sessions.py",
+    "qualname": "Session"
+   }
+  ],
+  "id": "q108"
+ },
+ {
+  "type": "inherits",
+  "question": "What are the subclasses of `RequestEncodingMixin`?",
+  "relevant": [
+   {
+    "path": "src/requests/models.py",
+    "qualname": "PreparedRequest"
+   }
+  ],
+  "id": "q109"
+ },
+ {
+  "type": "inherits",
+  "question": "What are the subclasses of `InvalidURL`?",
+  "relevant": [
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "InvalidProxyURL"
+   }
+  ],
+  "id": "q110"
+ },
+ {
+  "type": "inherits",
+  "question": "What are the subclasses of `PreparedRequest`?",
+  "relevant": [
+   {
+    "path": "src/requests/_types.py",
+    "qualname": "_ValidatedRequest"
+   }
+  ],
+  "id": "q111"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `InvalidJSONError`?",
+  "relevant": [
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "JSONDecodeError"
+   }
+  ],
+  "id": "q112"
+ },
+ {
+  "type": "inherits",
+  "question": "What are the subclasses of `BaseRequestKwargs`?",
+  "relevant": [
+   {
+    "path": "src/requests/_types.py",
+    "qualname": "DataKwargs"
+   },
+   {
+    "path": "src/requests/_types.py",
+    "qualname": "GetKwargs"
+   },
+   {
+    "path": "src/requests/_types.py",
+    "qualname": "PostKwargs"
+   },
+   {
+    "path": "src/requests/_types.py",
+    "qualname": "RequestKwargs"
+   }
+  ],
+  "id": "q113"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `ConnectionError`?",
+  "relevant": [
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "ConnectTimeout"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "ProxyError"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "SSLError"
+   }
+  ],
+  "id": "q114"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `Timeout`?",
+  "relevant": [
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "ConnectTimeout"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "ReadTimeout"
+   }
+  ],
+  "id": "q115"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `RequestException`?",
+  "relevant": [
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "ChunkedEncodingError"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "ConnectionError"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "ContentDecodingError"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "HTTPError"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "InvalidHeader"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "InvalidJSONError"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "InvalidSchema"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "InvalidURL"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "MissingSchema"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "RetryError"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "StreamConsumedError"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "Timeout"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "TooManyRedirects"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "URLRequired"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "UnrewindableBodyError"
+   }
+  ],
+  "id": "q116"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `BaseAdapter`?",
+  "relevant": [
+   {
+    "path": "src/requests/adapters.py",
+    "qualname": "HTTPAdapter"
+   }
+  ],
+  "id": "q117"
+ },
+ {
+  "type": "inherits",
+  "question": "What are the subclasses of `RequestsWarning`?",
+  "relevant": [
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "FileModeWarning"
+   },
+   {
+    "path": "src/requests/exceptions.py",
+    "qualname": "RequestsDependencyWarning"
+   }
+  ],
+  "id": "q118"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `RequestHooksMixin`?",
+  "relevant": [
+   {
+    "path": "src/requests/models.py",
+    "qualname": "PreparedRequest"
+   },
+   {
+    "path": "src/requests/models.py",
+    "qualname": "Request"
+   }
+  ],
+  "id": "q119"
+ }
+]

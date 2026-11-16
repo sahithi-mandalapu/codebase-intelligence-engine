@@ -1,0 +1,269 @@
+{
+  "repo": "click",
+  "embedder": "hash",
+  "reranker": "lexical",
+  "index": {
+    "files": 134,
+    "chunks": 1932,
+    "symbols": 1389,
+    "index_seconds": 1.75
+  },
+  "n_questions": 120,
+  "results": {
+    "dense only": {
+      "recall@1": 0.328,
+      "recall@5": 0.546,
+      "recall@10": 0.651,
+      "mrr": 0.463,
+      "latency_ms": 0.5,
+      "by_type": {
+        "callees": {
+          "recall@1": 0.0,
+          "recall@5": 0.074,
+          "recall@10": 0.176,
+          "mrr": 0.086,
+          "n": 18
+        },
+        "callers": {
+          "recall@1": 0.083,
+          "recall@5": 0.549,
+          "recall@10": 0.674,
+          "mrr": 0.337,
+          "n": 24
+        },
+        "definition": {
+          "recall@1": 0.444,
+          "recall@5": 0.833,
+          "recall@10": 0.833,
+          "mrr": 0.587,
+          "n": 18
+        },
+        "docstring": {
+          "recall@1": 0.784,
+          "recall@5": 0.865,
+          "recall@10": 0.919,
+          "mrr": 0.826,
+          "n": 37
+        },
+        "imports": {
+          "recall@1": 0.0,
+          "recall@5": 0.172,
+          "recall@10": 0.276,
+          "mrr": 0.156,
+          "n": 11
+        },
+        "inherits": {
+          "recall@1": 0.028,
+          "recall@5": 0.175,
+          "recall@10": 0.562,
+          "mrr": 0.254,
+          "n": 12
+        }
+      }
+    },
+    "bm25 only": {
+      "recall@1": 0.358,
+      "recall@5": 0.707,
+      "recall@10": 0.737,
+      "mrr": 0.526,
+      "latency_ms": 0.8,
+      "by_type": {
+        "callees": {
+          "recall@1": 0.019,
+          "recall@5": 0.046,
+          "recall@10": 0.079,
+          "mrr": 0.084,
+          "n": 18
+        },
+        "callers": {
+          "recall@1": 0.021,
+          "recall@5": 0.958,
+          "recall@10": 0.958,
+          "mrr": 0.439,
+          "n": 24
+        },
+        "definition": {
+          "recall@1": 0.611,
+          "recall@5": 0.889,
+          "recall@10": 0.889,
+          "mrr": 0.736,
+          "n": 18
+        },
+        "docstring": {
+          "recall@1": 0.838,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.895,
+          "n": 37
+        },
+        "imports": {
+          "recall@1": 0.0,
+          "recall@5": 0.258,
+          "recall@10": 0.318,
+          "mrr": 0.154,
+          "n": 11
+        },
+        "inherits": {
+          "recall@1": 0.012,
+          "recall@5": 0.432,
+          "recall@10": 0.625,
+          "mrr": 0.247,
+          "n": 12
+        }
+      }
+    },
+    "hybrid (dense+bm25)": {
+      "recall@1": 0.363,
+      "recall@5": 0.628,
+      "recall@10": 0.709,
+      "mrr": 0.506,
+      "latency_ms": 1.3,
+      "by_type": {
+        "callees": {
+          "recall@1": 0.0,
+          "recall@5": 0.028,
+          "recall@10": 0.125,
+          "mrr": 0.042,
+          "n": 18
+        },
+        "callers": {
+          "recall@1": 0.083,
+          "recall@5": 0.75,
+          "recall@10": 0.875,
+          "mrr": 0.404,
+          "n": 24
+        },
+        "definition": {
+          "recall@1": 0.556,
+          "recall@5": 0.889,
+          "recall@10": 0.889,
+          "mrr": 0.706,
+          "n": 18
+        },
+        "docstring": {
+          "recall@1": 0.838,
+          "recall@5": 0.973,
+          "recall@10": 0.973,
+          "mrr": 0.891,
+          "n": 37
+        },
+        "imports": {
+          "recall@1": 0.03,
+          "recall@5": 0.076,
+          "recall@10": 0.189,
+          "mrr": 0.131,
+          "n": 11
+        },
+        "inherits": {
+          "recall@1": 0.021,
+          "recall@5": 0.334,
+          "recall@10": 0.646,
+          "mrr": 0.266,
+          "n": 12
+        }
+      }
+    },
+    "hybrid + graph": {
+      "recall@1": 0.437,
+      "recall@5": 0.946,
+      "recall@10": 0.985,
+      "mrr": 0.746,
+      "latency_ms": 1.5,
+      "by_type": {
+        "callees": {
+          "recall@1": 0.088,
+          "recall@5": 0.94,
+          "recall@10": 1.0,
+          "mrr": 0.639,
+          "n": 18
+        },
+        "callers": {
+          "recall@1": 0.618,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.854,
+          "n": 24
+        },
+        "definition": {
+          "recall@1": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 1.0,
+          "n": 18
+        },
+        "docstring": {
+          "recall@1": 0.405,
+          "recall@5": 0.946,
+          "recall@10": 0.973,
+          "mrr": 0.632,
+          "n": 37
+        },
+        "imports": {
+          "recall@1": 0.13,
+          "recall@5": 0.804,
+          "recall@10": 0.964,
+          "mrr": 0.697,
+          "n": 11
+        },
+        "inherits": {
+          "recall@1": 0.132,
+          "recall@5": 0.895,
+          "recall@10": 0.965,
+          "mrr": 0.708,
+          "n": 12
+        }
+      }
+    },
+    "hybrid + graph + rerank": {
+      "recall@1": 0.692,
+      "recall@5": 0.966,
+      "recall@10": 0.995,
+      "mrr": 0.947,
+      "latency_ms": 6.2,
+      "by_type": {
+        "callees": {
+          "recall@1": 0.384,
+          "recall@5": 0.991,
+          "recall@10": 1.0,
+          "mrr": 1.0,
+          "n": 18
+        },
+        "callers": {
+          "recall@1": 0.826,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.958,
+          "n": 24
+        },
+        "definition": {
+          "recall@1": 0.833,
+          "recall@5": 0.944,
+          "recall@10": 1.0,
+          "mrr": 0.898,
+          "n": 18
+        },
+        "docstring": {
+          "recall@1": 0.865,
+          "recall@5": 0.973,
+          "recall@10": 1.0,
+          "mrr": 0.918,
+          "n": 37
+        },
+        "imports": {
+          "recall@1": 0.297,
+          "recall@5": 0.902,
+          "recall@10": 0.989,
+          "mrr": 0.955,
+          "n": 11
+        },
+        "inherits": {
+          "recall@1": 0.505,
+          "recall@5": 0.928,
+          "recall@10": 0.965,
+          "mrr": 1.0,
+          "n": 12
+        }
+      }
+    }
+  }
+}

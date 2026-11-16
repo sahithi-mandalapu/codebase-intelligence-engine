@@ -1,0 +1,1610 @@
+[
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: The view function used to serve files from :attr:`static_folder`.",
+  "relevant": [
+   {
+    "path": "src/flask/blueprints.py",
+    "qualname": "Blueprint.send_static_file"
+   }
+  ],
+  "id": "q000"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: A helper method to register a rule (and optionally a view function) to the application.",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/blueprints.py",
+    "qualname": "BlueprintSetupState.add_url_rule"
+   }
+  ],
+  "id": "q001"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Ensure that the function is synchronous for WSGI workers.",
+  "relevant": [
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.ensure_sync"
+   }
+  ],
+  "id": "q002"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Like :meth:`teardown_request`, but after every request, not only those handled by the blueprint.",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/blueprints.py",
+    "qualname": "Blueprint.teardown_app_request"
+   }
+  ],
+  "id": "q003"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Returns the path for which the cookie should be valid.",
+  "relevant": [
+   {
+    "path": "src/flask/sessions.py",
+    "qualname": "SessionInterface.get_cookie_path"
+   }
+  ],
+  "id": "q004"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Get whether debug mode should be enabled for the app, indicated by the :envvar:`FLASK_DEBUG` environment variable.",
+  "relevant": [
+   {
+    "path": "src/flask/helpers.py",
+    "qualname": "get_debug_flag"
+   }
+  ],
+  "id": "q005"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Registers a template context processor function.",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/scaffold.py",
+    "qualname": "Scaffold.context_processor"
+   }
+  ],
+  "id": "q006"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Render a template by name with the given context as a stream.",
+  "relevant": [
+   {
+    "path": "src/flask/templating.py",
+    "qualname": "stream_template"
+   }
+  ],
+  "id": "q007"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Create the object to assign to :attr:`aborter`.",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/app.py",
+    "qualname": "App.make_aborter"
+   }
+  ],
+  "id": "q008"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Alternative error attach function to the :meth:`errorhandler` decorator that is more straightforward to use for non decorator usage.",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/scaffold.py",
+    "qualname": "Scaffold.register_error_handler"
+   }
+  ],
+  "id": "q009"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Works like :meth:`record` but wraps the function in another function that will ensure the function is only called once.",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/blueprints.py",
+    "qualname": "Blueprint.record_once"
+   }
+  ],
+  "id": "q010"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: This works similar to a regular click :class:`~click.Group` but it changes the behavior of the :meth:`command` decorator so that it automatically wraps the functions in :func:`with_appcontext`.",
+  "relevant": [
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "AppGroup"
+   }
+  ],
+  "id": "q011"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Check if the given value should be tagged by this tag.",
+  "relevant": [
+   {
+    "path": "src/flask/json/tag.py",
+    "qualname": "JSONTag.check"
+   }
+  ],
+  "id": "q012"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Shortcut for :meth:`route` with ``methods=[\"PUT\"]``.",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/scaffold.py",
+    "qualname": "Scaffold.put"
+   }
+  ],
+  "id": "q013"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: The default session interface that stores sessions in signed cookies through the :mod:`itsdangerous` module.",
+  "relevant": [
+   {
+    "path": "src/flask/sessions.py",
+    "qualname": "SecureCookieSessionInterface"
+   }
+  ],
+  "id": "q014"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Serialize data as JSON and write to a file.",
+  "relevant": [
+   {
+    "path": "src/flask/json/provider.py",
+    "qualname": "JSONProvider.dump"
+   }
+  ],
+  "id": "q015"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Register a :class:`~flask.Blueprint` on the application.",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/app.py",
+    "qualname": "App.register_blueprint"
+   }
+  ],
+  "id": "q016"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Returns ``True`` if autoescaping should be active for the given template name.",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/app.py",
+    "qualname": "App.select_jinja_autoescape"
+   }
+  ],
+  "id": "q017"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Handle an exception that did not have an error handler associated with it, or that was raised from an error handler.",
+  "relevant": [
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.handle_exception"
+   }
+  ],
+  "id": "q018"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Get a post and its author by id.",
+  "relevant": [
+   {
+    "path": "examples/tutorial/flaskr/blog.py",
+    "qualname": "get_post"
+   }
+  ],
+  "id": "q019"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Create a redirect response object.",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/app.py",
+    "qualname": "App.redirect"
+   }
+  ],
+  "id": "q020"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Pop this context so that it is no longer the active context.",
+  "relevant": [
+   {
+    "path": "src/flask/ctx.py",
+    "qualname": "AppContext.pop"
+   }
+  ],
+  "id": "q021"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Open a resource file relative to :attr:`root_path` for reading.",
+  "relevant": [
+   {
+    "path": "src/flask/blueprints.py",
+    "qualname": "Blueprint.open_resource"
+   }
+  ],
+  "id": "q022"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Loads the Flask app (if not yet loaded) and returns it.",
+  "relevant": [
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "ScriptInfo.load_app"
+   }
+  ],
+  "id": "q023"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Sometimes it is necessary to set additional headers in a view.",
+  "relevant": [
+   {
+    "path": "src/flask/helpers.py",
+    "qualname": "make_response"
+   }
+  ],
+  "id": "q024"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Find the path that contains the package or module.",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/scaffold.py",
+    "qualname": "_find_package_path"
+   }
+  ],
+  "id": "q025"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Invokes a CLI command in an isolated environment.",
+  "relevant": [
+   {
+    "path": "src/flask/testing.py",
+    "qualname": "FlaskCliRunner.invoke"
+   }
+  ],
+  "id": "q026"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: The ``--key`` option must be specified when ``--cert`` is a file.",
+  "relevant": [
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "_validate_key"
+   }
+  ],
+  "id": "q027"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Shortcut for :meth:`route` with ``methods=[\"PATCH\"]``.",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/scaffold.py",
+    "qualname": "Scaffold.patch"
+   }
+  ],
+  "id": "q028"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Serialize ``obj`` to a JSON-formatted string.",
+  "relevant": [
+   {
+    "path": "src/flask/testing.py",
+    "qualname": "EnvironBuilder.json_dumps"
+   }
+  ],
+  "id": "q029"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Test if an app context is active.",
+  "relevant": [
+   {
+    "path": "src/flask/ctx.py",
+    "qualname": "has_app_context"
+   }
+  ],
+  "id": "q030"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Check whether calling a function raised a ``TypeError`` because the call failed or because something in the factory raised the error.",
+  "relevant": [
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "_called_with_wrong_args"
+   }
+  ],
+  "id": "q031"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Convert the JSON representation back to the correct type.",
+  "relevant": [
+   {
+    "path": "src/flask/json/tag.py",
+    "qualname": "JSONTag.to_python"
+   }
+  ],
+  "id": "q032"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Returns a dictionary containing a subset of configuration options that match the specified namespace/prefix.",
+  "relevant": [
+   {
+    "path": "src/flask/config.py",
+    "qualname": "Config.get_namespace"
+   }
+  ],
+  "id": "q033"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Returns the shell context for an interactive shell for this application.",
+  "relevant": [
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.make_shell_context"
+   }
+  ],
+  "id": "q034"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: Click option type that accepts a list of values separated by the OS's path separator (``:``, ``;`` on Windows).",
+  "relevant": [
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "SeparatedPathType"
+   }
+  ],
+  "id": "q035"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `dump` defined?",
+  "relevant": [
+   {
+    "path": "src/flask/json/__init__.py",
+    "qualname": "dump"
+   }
+  ],
+  "id": "q036"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `FlaskCliRunner` defined?",
+  "relevant": [
+   {
+    "path": "src/flask/testing.py",
+    "qualname": "FlaskCliRunner"
+   }
+  ],
+  "id": "q037"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `app_errorhandler`.",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/blueprints.py",
+    "qualname": "Blueprint.app_errorhandler"
+   }
+  ],
+  "id": "q038"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `open_instance_resource`.",
+  "relevant": [
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.open_instance_resource"
+   }
+  ],
+  "id": "q039"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `TagTuple`.",
+  "relevant": [
+   {
+    "path": "src/flask/json/tag.py",
+    "qualname": "TagTuple"
+   }
+  ],
+  "id": "q040"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `make_config` defined?",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/app.py",
+    "qualname": "App.make_config"
+   }
+  ],
+  "id": "q041"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `get_signing_serializer`.",
+  "relevant": [
+   {
+    "path": "src/flask/sessions.py",
+    "qualname": "SecureCookieSessionInterface.get_signing_serializer"
+   }
+  ],
+  "id": "q042"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `push` defined?",
+  "relevant": [
+   {
+    "path": "src/flask/ctx.py",
+    "qualname": "AppContext.push"
+   }
+  ],
+  "id": "q043"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `get_flashed_messages`.",
+  "relevant": [
+   {
+    "path": "src/flask/helpers.py",
+    "qualname": "get_flashed_messages"
+   }
+  ],
+  "id": "q044"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `init_db_command` defined?",
+  "relevant": [
+   {
+    "path": "examples/tutorial/flaskr/db.py",
+    "qualname": "init_db_command"
+   }
+  ],
+  "id": "q045"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `BlueprintSetupState`.",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/blueprints.py",
+    "qualname": "BlueprintSetupState"
+   }
+  ],
+  "id": "q046"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `MethodView`.",
+  "relevant": [
+   {
+    "path": "src/flask/views.py",
+    "qualname": "MethodView"
+   }
+  ],
+  "id": "q047"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `before_request`.",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/scaffold.py",
+    "qualname": "Scaffold.before_request"
+   }
+  ],
+  "id": "q048"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `make_aborter` defined?",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/app.py",
+    "qualname": "App.make_aborter"
+   }
+  ],
+  "id": "q049"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `_set_app` defined?",
+  "relevant": [
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "_set_app"
+   }
+  ],
+  "id": "q050"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `process_response` defined?",
+  "relevant": [
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.process_response"
+   }
+  ],
+  "id": "q051"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `command`.",
+  "relevant": [
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "AppGroup.command"
+   }
+  ],
+  "id": "q052"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `stream_template` defined?",
+  "relevant": [
+   {
+    "path": "src/flask/templating.py",
+    "qualname": "stream_template"
+   }
+  ],
+  "id": "q053"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `load`?",
+  "relevant": [
+   {
+    "path": "src/flask/config.py",
+    "qualname": "Config.from_file"
+   }
+  ],
+  "id": "q054"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `teardown_appcontext`?",
+  "relevant": [
+   {
+    "path": "examples/tutorial/flaskr/db.py",
+    "qualname": "init_app"
+   }
+  ],
+  "id": "q055"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `_get_source_explained` called from?",
+  "relevant": [
+   {
+    "path": "src/flask/templating.py",
+    "qualname": "DispatchingJinjaLoader.get_source"
+   }
+  ],
+  "id": "q056"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `get_cookie_path`?",
+  "relevant": [
+   {
+    "path": "src/flask/sessions.py",
+    "qualname": "SecureCookieSessionInterface.save_session"
+   }
+  ],
+  "id": "q057"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `get_debug_flag`?",
+  "relevant": [
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.run"
+   },
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "ScriptInfo.load_app"
+   },
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "run_command"
+   },
+   {
+    "path": "src/flask/sansio/app.py",
+    "qualname": "App.make_config"
+   }
+  ],
+  "id": "q058"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `add_template_test`?",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/app.py",
+    "qualname": "App.template_test"
+   },
+   {
+    "path": "src/flask/sansio/blueprints.py",
+    "qualname": "Blueprint.add_app_template_test"
+   }
+  ],
+  "id": "q059"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `create_global_jinja_loader`?",
+  "relevant": [
+   {
+    "path": "src/flask/templating.py",
+    "qualname": "Environment.__init__"
+   }
+  ],
+  "id": "q060"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `process_response`?",
+  "relevant": [
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.finalize_request"
+   }
+  ],
+  "id": "q061"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `_endpoint_from_view_func`?",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/app.py",
+    "qualname": "App.add_url_rule"
+   },
+   {
+    "path": "src/flask/sansio/blueprints.py",
+    "qualname": "BlueprintSetupState.add_url_rule"
+   }
+  ],
+  "id": "q062"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `_called_with_wrong_args` called from?",
+  "relevant": [
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "find_app_by_string"
+   },
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "find_best_app"
+   }
+  ],
+  "id": "q063"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `from_prefixed_env`?",
+  "relevant": [
+   {
+    "path": "examples/celery/src/task_app/__init__.py",
+    "qualname": "create_app"
+   }
+  ],
+  "id": "q064"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `_request_from_builder_args` called from?",
+  "relevant": [
+   {
+    "path": "src/flask/testing.py",
+    "qualname": "FlaskClient.open"
+   }
+  ],
+  "id": "q065"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `update_template_context`?",
+  "relevant": [
+   {
+    "path": "src/flask/templating.py",
+    "qualname": "_render"
+   },
+   {
+    "path": "src/flask/templating.py",
+    "qualname": "_stream"
+   }
+  ],
+  "id": "q066"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `test_request_context`?",
+  "relevant": [
+   {
+    "path": "src/flask/testing.py",
+    "qualname": "FlaskClient.session_transaction"
+   }
+  ],
+  "id": "q067"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `_render`?",
+  "relevant": [
+   {
+    "path": "src/flask/templating.py",
+    "qualname": "render_template"
+   },
+   {
+    "path": "src/flask/templating.py",
+    "qualname": "render_template_string"
+   }
+  ],
+  "id": "q068"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `_get_werkzeug_version`?",
+  "relevant": [
+   {
+    "path": "src/flask/testing.py",
+    "qualname": "FlaskClient.__init__"
+   }
+  ],
+  "id": "q069"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `get_source` called from?",
+  "relevant": [
+   {
+    "path": "src/flask/templating.py",
+    "qualname": "DispatchingJinjaLoader._get_source_explained"
+   },
+   {
+    "path": "src/flask/templating.py",
+    "qualname": "DispatchingJinjaLoader._get_source_fast"
+   }
+  ],
+  "id": "q070"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `full_dispatch_request`?",
+  "relevant": [
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.wsgi_app"
+   }
+  ],
+  "id": "q071"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `_prepare_response_obj`?",
+  "relevant": [
+   {
+    "path": "src/flask/json/provider.py",
+    "qualname": "DefaultJSONProvider.response"
+   },
+   {
+    "path": "src/flask/json/provider.py",
+    "qualname": "JSONProvider.response"
+   }
+  ],
+  "id": "q072"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `_find_error_handler`?",
+  "relevant": [
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.handle_exception"
+   },
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.handle_http_exception"
+   },
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.handle_user_exception"
+   }
+  ],
+  "id": "q073"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `from_object`?",
+  "relevant": [
+   {
+    "path": "src/flask/config.py",
+    "qualname": "Config.from_pyfile"
+   }
+  ],
+  "id": "q074"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `errorhandler` called from?",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/blueprints.py",
+    "qualname": "Blueprint.app_errorhandler"
+   }
+  ],
+  "id": "q075"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `handle_url_build_error`?",
+  "relevant": [
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.url_for"
+   }
+  ],
+  "id": "q076"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `init_app`?",
+  "relevant": [
+   {
+    "path": "examples/tutorial/flaskr/__init__.py",
+    "qualname": "create_app"
+   }
+  ],
+  "id": "q077"
+ },
+ {
+  "type": "callees",
+  "question": "What does `push` call?",
+  "relevant": [
+   {
+    "path": "src/flask/ctx.py",
+    "qualname": "AppContext._get_session"
+   },
+   {
+    "path": "src/flask/ctx.py",
+    "qualname": "AppContext.match_request"
+   }
+  ],
+  "id": "q078"
+ },
+ {
+  "type": "callees",
+  "question": "What does `get_command` call?",
+  "relevant": [
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.app_context"
+   },
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "FlaskGroup._load_plugin_commands"
+   },
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "ScriptInfo.load_app"
+   }
+  ],
+  "id": "q079"
+ },
+ {
+  "type": "callees",
+  "question": "What does `session_transaction` call?",
+  "relevant": [
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.test_request_context"
+   },
+   {
+    "path": "src/flask/sessions.py",
+    "qualname": "SessionInterface.is_null_session"
+   }
+  ],
+  "id": "q080"
+ },
+ {
+  "type": "callees",
+  "question": "What does `find_best_app` call?",
+  "relevant": [
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "NoAppException"
+   },
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "_called_with_wrong_args"
+   }
+  ],
+  "id": "q081"
+ },
+ {
+  "type": "callees",
+  "question": "What does `app_url_value_preprocessor` call?",
+  "relevant": [
+   {
+    "path": "src/flask/ctx.py",
+    "qualname": "_AppCtxGlobals.setdefault"
+   },
+   {
+    "path": "src/flask/sansio/blueprints.py",
+    "qualname": "Blueprint.record_once"
+   }
+  ],
+  "id": "q082"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `find_app_by_string` call?",
+  "relevant": [
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "NoAppException"
+   },
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "_called_with_wrong_args"
+   }
+  ],
+  "id": "q083"
+ },
+ {
+  "type": "callees",
+  "question": "What does `handle_user_exception` call?",
+  "relevant": [
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.ensure_sync"
+   },
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.handle_http_exception"
+   },
+   {
+    "path": "src/flask/sansio/app.py",
+    "qualname": "App._find_error_handler"
+   },
+   {
+    "path": "src/flask/sansio/app.py",
+    "qualname": "App.trap_http_exception"
+   }
+  ],
+  "id": "q084"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `login` call?",
+  "relevant": [
+   {
+    "path": "examples/tutorial/flaskr/db.py",
+    "qualname": "get_db"
+   },
+   {
+    "path": "src/flask/sansio/scaffold.py",
+    "qualname": "Scaffold.route"
+   }
+  ],
+  "id": "q085"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `with_appcontext` call?",
+  "relevant": [
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.app_context"
+   },
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "ScriptInfo.load_app"
+   }
+  ],
+  "id": "q086"
+ },
+ {
+  "type": "callees",
+  "question": "What does `register` call?",
+  "relevant": [
+   {
+    "path": "examples/tutorial/flaskr/db.py",
+    "qualname": "get_db"
+   },
+   {
+    "path": "src/flask/sansio/scaffold.py",
+    "qualname": "Scaffold.route"
+   }
+  ],
+  "id": "q087"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `test_request_context` call?",
+  "relevant": [
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.request_context"
+   },
+   {
+    "path": "src/flask/testing.py",
+    "qualname": "EnvironBuilder"
+   }
+  ],
+  "id": "q088"
+ },
+ {
+  "type": "callees",
+  "question": "What does `_stream` call?",
+  "relevant": [
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.update_template_context"
+   },
+   {
+    "path": "src/flask/helpers.py",
+    "qualname": "stream_with_context"
+   }
+  ],
+  "id": "q089"
+ },
+ {
+  "type": "callees",
+  "question": "What does `after_app_request` call?",
+  "relevant": [
+   {
+    "path": "src/flask/ctx.py",
+    "qualname": "_AppCtxGlobals.setdefault"
+   },
+   {
+    "path": "src/flask/sansio/blueprints.py",
+    "qualname": "Blueprint.record_once"
+   }
+  ],
+  "id": "q090"
+ },
+ {
+  "type": "callees",
+  "question": "What does `delete` call?",
+  "relevant": [
+   {
+    "path": "examples/tutorial/flaskr/blog.py",
+    "qualname": "get_post"
+   },
+   {
+    "path": "examples/tutorial/flaskr/db.py",
+    "qualname": "get_db"
+   },
+   {
+    "path": "src/flask/sansio/scaffold.py",
+    "qualname": "Scaffold.route"
+   }
+  ],
+  "id": "q091"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `run_command` call?",
+  "relevant": [
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "CertParamType"
+   },
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "ScriptInfo.load_app"
+   },
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "SeparatedPathType"
+   },
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "show_server_banner"
+   },
+   {
+    "path": "src/flask/helpers.py",
+    "qualname": "get_debug_flag"
+   }
+  ],
+  "id": "q092"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `process_response` call?",
+  "relevant": [
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.ensure_sync"
+   },
+   {
+    "path": "src/flask/ctx.py",
+    "qualname": "AppContext._get_session"
+   },
+   {
+    "path": "src/flask/sessions.py",
+    "qualname": "SessionInterface.is_null_session"
+   }
+  ],
+  "id": "q093"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `create` call?",
+  "relevant": [
+   {
+    "path": "examples/tutorial/flaskr/db.py",
+    "qualname": "get_db"
+   },
+   {
+    "path": "src/flask/sansio/scaffold.py",
+    "qualname": "Scaffold.route"
+   }
+  ],
+  "id": "q094"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `handle_http_exception` call?",
+  "relevant": [
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask.ensure_sync"
+   },
+   {
+    "path": "src/flask/sansio/app.py",
+    "qualname": "App._find_error_handler"
+   }
+  ],
+  "id": "q095"
+ },
+ {
+  "type": "imports",
+  "question": "What imports `src/flask/sessions.py`?",
+  "relevant": [
+   {
+    "path": "src/flask/app.py"
+   },
+   {
+    "path": "src/flask/ctx.py"
+   },
+   {
+    "path": "src/flask/globals.py"
+   },
+   {
+    "path": "src/flask/testing.py"
+   }
+  ],
+  "id": "q096"
+ },
+ {
+  "type": "imports",
+  "question": "Which files import `src/flask/config.py`?",
+  "relevant": [
+   {
+    "path": "src/flask/__init__.py"
+   },
+   {
+    "path": "src/flask/sansio/app.py"
+   }
+  ],
+  "id": "q097"
+ },
+ {
+  "type": "imports",
+  "question": "What imports `src/flask/ctx.py`?",
+  "relevant": [
+   {
+    "path": "src/flask/__init__.py"
+   },
+   {
+    "path": "src/flask/app.py"
+   },
+   {
+    "path": "src/flask/globals.py"
+   },
+   {
+    "path": "src/flask/sansio/app.py"
+   },
+   {
+    "path": "src/flask/templating.py"
+   }
+  ],
+  "id": "q098"
+ },
+ {
+  "type": "imports",
+  "question": "What imports `src/flask/json/provider.py`?",
+  "relevant": [
+   {
+    "path": "src/flask/json/__init__.py"
+   },
+   {
+    "path": "src/flask/sansio/app.py"
+   }
+  ],
+  "id": "q099"
+ },
+ {
+  "type": "imports",
+  "question": "Which files import `src/flask/debughelpers.py`?",
+  "relevant": [
+   {
+    "path": "src/flask/app.py"
+   },
+   {
+    "path": "src/flask/templating.py"
+   },
+   {
+    "path": "src/flask/wrappers.py"
+   }
+  ],
+  "id": "q100"
+ },
+ {
+  "type": "imports",
+  "question": "Which files import `src/flask/cli.py`?",
+  "relevant": [
+   {
+    "path": "src/flask/__main__.py"
+   },
+   {
+    "path": "src/flask/app.py"
+   },
+   {
+    "path": "src/flask/blueprints.py"
+   },
+   {
+    "path": "src/flask/testing.py"
+   }
+  ],
+  "id": "q101"
+ },
+ {
+  "type": "imports",
+  "question": "Which files import `src/flask/app.py`?",
+  "relevant": [
+   {
+    "path": "src/flask/__init__.py"
+   },
+   {
+    "path": "src/flask/cli.py"
+   },
+   {
+    "path": "src/flask/ctx.py"
+   },
+   {
+    "path": "src/flask/globals.py"
+   },
+   {
+    "path": "src/flask/sessions.py"
+   },
+   {
+    "path": "src/flask/testing.py"
+   }
+  ],
+  "id": "q102"
+ },
+ {
+  "type": "imports",
+  "question": "What imports `src/flask/signals.py`?",
+  "relevant": [
+   {
+    "path": "src/flask/__init__.py"
+   },
+   {
+    "path": "src/flask/app.py"
+   },
+   {
+    "path": "src/flask/ctx.py"
+   },
+   {
+    "path": "src/flask/helpers.py"
+   },
+   {
+    "path": "src/flask/templating.py"
+   }
+  ],
+  "id": "q103"
+ },
+ {
+  "type": "imports",
+  "question": "What imports `src/flask/sansio/scaffold.py`?",
+  "relevant": [
+   {
+    "path": "src/flask/blueprints.py"
+   },
+   {
+    "path": "src/flask/debughelpers.py"
+   },
+   {
+    "path": "src/flask/sansio/app.py"
+   },
+   {
+    "path": "src/flask/sansio/blueprints.py"
+   },
+   {
+    "path": "src/flask/templating.py"
+   }
+  ],
+  "id": "q104"
+ },
+ {
+  "type": "imports",
+  "question": "What imports `src/flask/sansio/blueprints.py`?",
+  "relevant": [
+   {
+    "path": "src/flask/blueprints.py"
+   },
+   {
+    "path": "src/flask/sansio/app.py"
+   }
+  ],
+  "id": "q105"
+ },
+ {
+  "type": "imports",
+  "question": "Which files import `src/flask/testing.py`?",
+  "relevant": [
+   {
+    "path": "src/flask/app.py"
+   },
+   {
+    "path": "src/flask/sansio/app.py"
+   }
+  ],
+  "id": "q106"
+ },
+ {
+  "type": "imports",
+  "question": "Which files import `src/flask/templating.py`?",
+  "relevant": [
+   {
+    "path": "src/flask/__init__.py"
+   },
+   {
+    "path": "src/flask/app.py"
+   },
+   {
+    "path": "src/flask/sansio/app.py"
+   },
+   {
+    "path": "src/flask/sansio/scaffold.py"
+   }
+  ],
+  "id": "q107"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `App`?",
+  "relevant": [
+   {
+    "path": "src/flask/app.py",
+    "qualname": "Flask"
+   }
+  ],
+  "id": "q108"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `ProxyMixin`?",
+  "relevant": [
+   {
+    "path": "src/flask/globals.py",
+    "qualname": "AppContextProxy"
+   },
+   {
+    "path": "src/flask/globals.py",
+    "qualname": "FlaskProxy"
+   },
+   {
+    "path": "src/flask/globals.py",
+    "qualname": "RequestProxy"
+   },
+   {
+    "path": "src/flask/globals.py",
+    "qualname": "SessionMixinProxy"
+   },
+   {
+    "path": "src/flask/globals.py",
+    "qualname": "_AppCtxGlobalsProxy"
+   }
+  ],
+  "id": "q109"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `JSONTag`?",
+  "relevant": [
+   {
+    "path": "src/flask/json/tag.py",
+    "qualname": "PassDict"
+   },
+   {
+    "path": "src/flask/json/tag.py",
+    "qualname": "PassList"
+   },
+   {
+    "path": "src/flask/json/tag.py",
+    "qualname": "TagBytes"
+   },
+   {
+    "path": "src/flask/json/tag.py",
+    "qualname": "TagDateTime"
+   },
+   {
+    "path": "src/flask/json/tag.py",
+    "qualname": "TagDict"
+   },
+   {
+    "path": "src/flask/json/tag.py",
+    "qualname": "TagMarkup"
+   },
+   {
+    "path": "src/flask/json/tag.py",
+    "qualname": "TagTuple"
+   },
+   {
+    "path": "src/flask/json/tag.py",
+    "qualname": "TagUUID"
+   }
+  ],
+  "id": "q110"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `SecureCookieSession`?",
+  "relevant": [
+   {
+    "path": "src/flask/sessions.py",
+    "qualname": "NullSession"
+   }
+  ],
+  "id": "q111"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `Scaffold`?",
+  "relevant": [
+   {
+    "path": "src/flask/sansio/app.py",
+    "qualname": "App"
+   },
+   {
+    "path": "src/flask/sansio/blueprints.py",
+    "qualname": "Blueprint"
+   }
+  ],
+  "id": "q112"
+ },
+ {
+  "type": "inherits",
+  "question": "What are the subclasses of `AppContext`?",
+  "relevant": [
+   {
+    "path": "src/flask/globals.py",
+    "qualname": "AppContextProxy"
+   }
+  ],
+  "id": "q113"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `SessionMixin`?",
+  "relevant": [
+   {
+    "path": "src/flask/globals.py",
+    "qualname": "SessionMixinProxy"
+   },
+   {
+    "path": "src/flask/sessions.py",
+    "qualname": "SecureCookieSession"
+   }
+  ],
+  "id": "q114"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `_AppCtxGlobals`?",
+  "relevant": [
+   {
+    "path": "src/flask/globals.py",
+    "qualname": "_AppCtxGlobalsProxy"
+   }
+  ],
+  "id": "q115"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `JSONProvider`?",
+  "relevant": [
+   {
+    "path": "src/flask/json/provider.py",
+    "qualname": "DefaultJSONProvider"
+   }
+  ],
+  "id": "q116"
+ },
+ {
+  "type": "inherits",
+  "question": "What are the subclasses of `AppGroup`?",
+  "relevant": [
+   {
+    "path": "src/flask/cli.py",
+    "qualname": "FlaskGroup"
+   }
+  ],
+  "id": "q117"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `Flask`?",
+  "relevant": [
+   {
+    "path": "src/flask/globals.py",
+    "qualname": "FlaskProxy"
+   }
+  ],
+  "id": "q118"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `SessionInterface`?",
+  "relevant": [
+   {
+    "path": "src/flask/sessions.py",
+    "qualname": "SecureCookieSessionInterface"
+   }
+  ],
+  "id": "q119"
+ }
+]

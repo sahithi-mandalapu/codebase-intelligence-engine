@@ -1,0 +1,1679 @@
+[
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Removes a mine at a specific coordinate.",
+  "relevant": [
+   {
+    "path": "examples/naval/naval.py",
+    "qualname": "mine_remove"
+   }
+  ],
+  "id": "q000"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Creates the :class:`~click.HelpFormatter` for the help and usage output.",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Context.make_formatter"
+   }
+  ],
+  "id": "q001"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: An exception that indicates that the application should exit with some status code.",
+  "relevant": [
+   {
+    "path": "src/click/exceptions.py",
+    "qualname": "Exit"
+   }
+  ],
+  "id": "q002"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: This result callback is invoked with an iterable of all the chained subcommands.",
+  "relevant": [
+   {
+    "path": "examples/imagepipe/imagepipe.py",
+    "qualname": "process_commands"
+   }
+  ],
+  "id": "q003"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: Raised if an option is generally supplied but the use of the option was incorrect.",
+  "relevant": [
+   {
+    "path": "src/click/exceptions.py",
+    "qualname": "BadOptionUsage"
+   }
+  ],
+  "id": "q004"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: A stream attribute is compatible if it is equal to the desired value or the desired value is unset and the attribute has a value.",
+  "relevant": [
+   {
+    "path": "src/click/_compat.py",
+    "qualname": "_is_compat_stream_attr"
+   }
+  ],
+  "id": "q005"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Return the default value for this option.",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Option.get_default"
+   }
+  ],
+  "id": "q006"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Given an object type this creates a decorator that will work similar to :func:`pass_obj` but instead of passing the object of the current context, it will find the innermost context of type :func:`obj",
+  "relevant": [
+   {
+    "path": "src/click/decorators.py",
+    "qualname": "make_pass_decorator"
+   }
+  ],
+  "id": "q007"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Return a special completion marker that tells the completion system to use the shell to provide file path completions.",
+  "relevant": [
+   {
+    "path": "src/click/types.py",
+    "qualname": "File.shell_complete"
+   }
+  ],
+  "id": "q008"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Helpful context manager that writes a paragraph, a heading, and the indents.",
+  "relevant": [
+   {
+    "path": "src/click/formatting.py",
+    "qualname": "HelpFormatter.section"
+   }
+  ],
+  "id": "q009"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Infer a type from *ty* or *default*.",
+  "relevant": [
+   {
+    "path": "src/click/types.py",
+    "qualname": "_guess_type"
+   }
+  ],
+  "id": "q010"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Format a completion item into the form recognized by the shell script.",
+  "relevant": [
+   {
+    "path": "src/click/shell_completion.py",
+    "qualname": "ShellComplete.format_completion"
+   }
+  ],
+  "id": "q011"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Return the file descriptor of the saved original stream when ``CliRunner`` runs in ``fd`` mode.",
+  "relevant": [
+   {
+    "path": "src/click/testing.py",
+    "qualname": "_NamedTextIOWrapper.fileno"
+   }
+  ],
+  "id": "q012"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Page through text by invoking a program on a temporary file.",
+  "relevant": [
+   {
+    "path": "src/click/_termui_impl.py",
+    "qualname": "_tempfilepager"
+   }
+  ],
+  "id": "q013"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: A stream is misconfigured if its encoding is ASCII.",
+  "relevant": [
+   {
+    "path": "src/click/_compat.py",
+    "qualname": "_stream_is_misconfigured"
+   }
+  ],
+  "id": "q014"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: Shell completion for PowerShell (Windows PowerShell 5.1+ and pwsh 7+).",
+  "relevant": [
+   {
+    "path": "src/click/shell_completion.py",
+    "qualname": "PowerShellComplete"
+   }
+  ],
+  "id": "q015"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: ``True`` when this option is a flag with a boolean type.",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Option.is_bool_flag"
+   }
+  ],
+  "id": "q016"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Pre-configured ``--help`` option which immediately prints the help page and exits the program.",
+  "relevant": [
+   {
+    "path": "src/click/decorators.py",
+    "qualname": "help_option"
+   }
+  ],
+  "id": "q017"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Apply lazy auto-derivations to a default-style value.",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Option._resolve_lazy_default"
+   }
+  ],
+  "id": "q018"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Get the default for the parameter.",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Parameter.get_default"
+   }
+  ],
+  "id": "q019"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Returns how the user spells this parameter on the command line.",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Parameter.human_readable_name"
+   }
+  ],
+  "id": "q020"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Invokes a command callback in exactly the way it expects.",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Context.invoke"
+   }
+  ],
+  "id": "q021"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Add a ``--version`` option which immediately prints the version number and exits the program.",
+  "relevant": [
+   {
+    "path": "src/click/decorators.py",
+    "qualname": "version_option"
+   }
+  ],
+  "id": "q022"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Helper decorator to rewrite a function so that it returns another function from it.",
+  "relevant": [
+   {
+    "path": "examples/imagepipe/imagepipe.py",
+    "qualname": "processor"
+   }
+  ],
+  "id": "q023"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: A lazy file works like a regular file but it does not fully open the file but it does perform some basic checks early to see if the filename parameter does make sense.",
+  "relevant": [
+   {
+    "path": "src/click/utils.py",
+    "qualname": "_LazyFile"
+   }
+  ],
+  "id": "q024"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: The ``Path`` type is similar to the :class:`File` type, but returns the filename instead of an open file.",
+  "relevant": [
+   {
+    "path": "src/click/types.py",
+    "qualname": "Path"
+   }
+  ],
+  "id": "q025"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: The standard output as unicode string.",
+  "relevant": [
+   {
+    "path": "src/click/testing.py",
+    "qualname": "Result.stdout"
+   }
+  ],
+  "id": "q026"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Unwind the exit stack by calling its :meth:`__exit__` providing the exception information to allow for exception handling by the various resources registered using :meth;`with_resource` :return: Whate",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Context._close_with_exception_info"
+   }
+  ],
+  "id": "q027"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: For a given value from the parser, normalize it and find its matching normalized value in the list of choices.",
+  "relevant": [
+   {
+    "path": "src/click/types.py",
+    "qualname": "Choice.convert"
+   }
+  ],
+  "id": "q028"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the class that does the following: A :class:`Group` that looks up subcommands on other groups.",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "CommandCollection"
+   }
+  ],
+  "id": "q029"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Writes a paragraph into the buffer.",
+  "relevant": [
+   {
+    "path": "src/click/formatting.py",
+    "qualname": "HelpFormatter.write_paragraph"
+   }
+  ],
+  "id": "q030"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Logs a message to stderr.",
+  "relevant": [
+   {
+    "path": "examples/complex/complex/cli.py",
+    "qualname": "Environment.log"
+   }
+  ],
+  "id": "q031"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Styles a text with ANSI styles and returns the new string.",
+  "relevant": [
+   {
+    "path": "src/click/termui.py",
+    "qualname": "style"
+   }
+  ],
+  "id": "q032"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Check if the value looks like the start of an option.",
+  "relevant": [
+   {
+    "path": "src/click/shell_completion.py",
+    "qualname": "_start_of_option"
+   }
+  ],
+  "id": "q033"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Edits the given text in the defined editor.",
+  "relevant": [
+   {
+    "path": "src/click/termui.py",
+    "qualname": "edit"
+   }
+  ],
+  "id": "q034"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the method that does the following: Writes a usage line into the buffer.",
+  "relevant": [
+   {
+    "path": "src/click/formatting.py",
+    "qualname": "HelpFormatter.write_usage"
+   }
+  ],
+  "id": "q035"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `write_heading` defined?",
+  "relevant": [
+   {
+    "path": "src/click/formatting.py",
+    "qualname": "HelpFormatter.write_heading"
+   }
+  ],
+  "id": "q036"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `_process_args_for_args` defined?",
+  "relevant": [
+   {
+    "path": "src/click/parser.py",
+    "qualname": "_OptionParser._process_args_for_args"
+   }
+  ],
+  "id": "q037"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `forward`.",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Context.forward"
+   }
+  ],
+  "id": "q038"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `processor` defined?",
+  "relevant": [
+   {
+    "path": "examples/imagepipe/imagepipe.py",
+    "qualname": "processor"
+   }
+  ],
+  "id": "q039"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `add_option`.",
+  "relevant": [
+   {
+    "path": "src/click/parser.py",
+    "qualname": "_OptionParser.add_option"
+   }
+  ],
+  "id": "q040"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `emboss_cmd` defined?",
+  "relevant": [
+   {
+    "path": "examples/imagepipe/imagepipe.py",
+    "qualname": "emboss_cmd"
+   }
+  ],
+  "id": "q041"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `_is_file_like` defined?",
+  "relevant": [
+   {
+    "path": "src/click/types.py",
+    "qualname": "_is_file_like"
+   }
+  ],
+  "id": "q042"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `NumberRangeInfoDict`.",
+  "relevant": [
+   {
+    "path": "src/click/types.py",
+    "qualname": "NumberRangeInfoDict"
+   }
+  ],
+  "id": "q043"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `argument`.",
+  "relevant": [
+   {
+    "path": "src/click/decorators.py",
+    "qualname": "argument"
+   }
+  ],
+  "id": "q044"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `vlog`.",
+  "relevant": [
+   {
+    "path": "examples/complex/complex/cli.py",
+    "qualname": "Environment.vlog"
+   }
+  ],
+  "id": "q045"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `func_name`.",
+  "relevant": [
+   {
+    "path": "src/click/shell_completion.py",
+    "qualname": "ShellComplete.func_name"
+   }
+  ],
+  "id": "q046"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `ConsoleStream`.",
+  "relevant": [
+   {
+    "path": "src/click/_winconsole.py",
+    "qualname": "ConsoleStream"
+   }
+  ],
+  "id": "q047"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `exit` defined?",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Context.exit"
+   }
+  ],
+  "id": "q048"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `_pause_echo` defined?",
+  "relevant": [
+   {
+    "path": "src/click/testing.py",
+    "qualname": "_pause_echo"
+   }
+  ],
+  "id": "q049"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `StreamMixer` defined?",
+  "relevant": [
+   {
+    "path": "src/click/testing.py",
+    "qualname": "StreamMixer"
+   }
+  ],
+  "id": "q050"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `ParamType` defined?",
+  "relevant": [
+   {
+    "path": "src/click/types.py",
+    "qualname": "ParamType"
+   }
+  ],
+  "id": "q051"
+ },
+ {
+  "type": "definition",
+  "question": "Where is `_unpack_args` defined?",
+  "relevant": [
+   {
+    "path": "src/click/parser.py",
+    "qualname": "_unpack_args"
+   }
+  ],
+  "id": "q052"
+ },
+ {
+  "type": "definition",
+  "question": "Show me the implementation of `colordemo`.",
+  "relevant": [
+   {
+    "path": "examples/termui/termui.py",
+    "qualname": "colordemo"
+   }
+  ],
+  "id": "q053"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `shell_complete`?",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Command._main_shell_completion"
+   }
+  ],
+  "id": "q054"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `get_completions`?",
+  "relevant": [
+   {
+    "path": "src/click/shell_completion.py",
+    "qualname": "ShellComplete.complete"
+   }
+  ],
+  "id": "q055"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `_interpret_color` called from?",
+  "relevant": [
+   {
+    "path": "src/click/termui.py",
+    "qualname": "style"
+   }
+  ],
+  "id": "q056"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `_is_console`?",
+  "relevant": [
+   {
+    "path": "src/click/_winconsole.py",
+    "qualname": "_get_windows_console_stream"
+   }
+  ],
+  "id": "q057"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `join_options` called from?",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Option.get_help_spec"
+   }
+  ],
+  "id": "q058"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `_resolve_pager_command`?",
+  "relevant": [
+   {
+    "path": "src/click/_termui_impl.py",
+    "qualname": "_pager_contextmanager"
+   }
+  ],
+  "id": "q059"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `_param_memo`?",
+  "relevant": [
+   {
+    "path": "src/click/decorators.py",
+    "qualname": "argument"
+   },
+   {
+    "path": "src/click/decorators.py",
+    "qualname": "option"
+   }
+  ],
+  "id": "q060"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `_check_name_is_usable`?",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Argument._parse_decls"
+   },
+   {
+    "path": "src/click/core.py",
+    "qualname": "Option._parse_decls"
+   }
+  ],
+  "id": "q061"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `measure_table` called from?",
+  "relevant": [
+   {
+    "path": "src/click/formatting.py",
+    "qualname": "HelpFormatter.write_dl"
+   }
+  ],
+  "id": "q062"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `_get_error_message`?",
+  "relevant": [
+   {
+    "path": "src/click/_winconsole.py",
+    "qualname": "_WindowsConsoleWriter.write"
+   }
+  ],
+  "id": "q063"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `_is_compatible_text_stream`?",
+  "relevant": [
+   {
+    "path": "src/click/_compat.py",
+    "qualname": "_force_correct_text_stream"
+   }
+  ],
+  "id": "q064"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `format_pct` called from?",
+  "relevant": [
+   {
+    "path": "src/click/_termui_impl.py",
+    "qualname": "ProgressBar.format_progress_line"
+   }
+  ],
+  "id": "q065"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `get_text_stdout`?",
+  "relevant": [
+   {
+    "path": "src/click/_compat.py",
+    "qualname": "open_stream"
+   }
+  ],
+  "id": "q066"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `_mask_hidden_input`?",
+  "relevant": [
+   {
+    "path": "src/click/termui.py",
+    "qualname": "prompt"
+   }
+  ],
+  "id": "q067"
+ },
+ {
+  "type": "callers",
+  "question": "What uses `pop_context`?",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Context.__exit__"
+   }
+  ],
+  "id": "q068"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `_guess_type`?",
+  "relevant": [
+   {
+    "path": "src/click/types.py",
+    "qualname": "convert_type"
+   }
+  ],
+  "id": "q069"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `_is_jupyter_kernel_output` called from?",
+  "relevant": [
+   {
+    "path": "src/click/_compat.py",
+    "qualname": "should_strip_ansi"
+   }
+  ],
+  "id": "q070"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `_is_incomplete_argument`?",
+  "relevant": [
+   {
+    "path": "src/click/shell_completion.py",
+    "qualname": "_resolve_incomplete"
+   }
+  ],
+  "id": "q071"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `_outside_click_stacklevel` called from?",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Option._check_name_is_normalized"
+   },
+   {
+    "path": "src/click/core.py",
+    "qualname": "Parameter.__init_subclass__"
+   },
+   {
+    "path": "src/click/core.py",
+    "qualname": "Parameter._check_name_is_usable"
+   }
+  ],
+  "id": "q072"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `_format_possibilities`?",
+  "relevant": [
+   {
+    "path": "src/click/exceptions.py",
+    "qualname": "NoSuchCommand.format_message"
+   },
+   {
+    "path": "src/click/exceptions.py",
+    "qualname": "NoSuchOption.format_message"
+   }
+  ],
+  "id": "q073"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `_tempfilepager` called from?",
+  "relevant": [
+   {
+    "path": "src/click/_termui_impl.py",
+    "qualname": "_pager_contextmanager"
+   }
+  ],
+  "id": "q074"
+ },
+ {
+  "type": "callers",
+  "question": "Which functions call `format_help_text`?",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Command.format_help"
+   }
+  ],
+  "id": "q075"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `get_binary_stdout` called from?",
+  "relevant": [
+   {
+    "path": "src/click/_compat.py",
+    "qualname": "open_stream"
+   }
+  ],
+  "id": "q076"
+ },
+ {
+  "type": "callers",
+  "question": "Where is `_format_default` called from?",
+  "relevant": [
+   {
+    "path": "src/click/termui.py",
+    "qualname": "_build_prompt"
+   }
+  ],
+  "id": "q077"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `make_parser` call?",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Command.get_params"
+   },
+   {
+    "path": "src/click/parser.py",
+    "qualname": "_OptionParser"
+   }
+  ],
+  "id": "q078"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `_pipepager` call?",
+  "relevant": [
+   {
+    "path": "src/click/_termui_impl.py",
+    "qualname": "_less_uses_raw_mode"
+   },
+   {
+    "path": "tests/test_termui.py",
+    "qualname": "_FakePagerProcess.terminate"
+   }
+  ],
+  "id": "q079"
+ },
+ {
+  "type": "callees",
+  "question": "What does `_pick_type` call?",
+  "relevant": [
+   {
+    "path": "src/click/types.py",
+    "qualname": "BoolParamType"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "IntRange"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "convert_type"
+   }
+  ],
+  "id": "q080"
+ },
+ {
+  "type": "callees",
+  "question": "What does `isolation` call?",
+  "relevant": [
+   {
+    "path": "src/click/testing.py",
+    "qualname": "CliRunner.make_env"
+   },
+   {
+    "path": "src/click/testing.py",
+    "qualname": "EchoingStdin"
+   },
+   {
+    "path": "src/click/testing.py",
+    "qualname": "StreamMixer"
+   },
+   {
+    "path": "src/click/testing.py",
+    "qualname": "_NamedTextIOWrapper"
+   },
+   {
+    "path": "src/click/testing.py",
+    "qualname": "_pause_echo"
+   },
+   {
+    "path": "src/click/testing.py",
+    "qualname": "make_input_stream"
+   }
+  ],
+  "id": "q081"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `format_help_text` call?",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "_format_deprecated_label"
+   },
+   {
+    "path": "src/click/formatting.py",
+    "qualname": "HelpFormatter.indentation"
+   },
+   {
+    "path": "src/click/formatting.py",
+    "qualname": "HelpFormatter.write_paragraph"
+   },
+   {
+    "path": "src/click/formatting.py",
+    "qualname": "HelpFormatter.write_text"
+   }
+  ],
+  "id": "q082"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `complete` call?",
+  "relevant": [
+   {
+    "path": "src/click/shell_completion.py",
+    "qualname": "ShellComplete.format_completion"
+   },
+   {
+    "path": "src/click/shell_completion.py",
+    "qualname": "ShellComplete.get_completion_args"
+   },
+   {
+    "path": "src/click/shell_completion.py",
+    "qualname": "ShellComplete.get_completions"
+   }
+  ],
+  "id": "q083"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `open_file` call?",
+  "relevant": [
+   {
+    "path": "src/click/_compat.py",
+    "qualname": "open_stream"
+   },
+   {
+    "path": "src/click/utils.py",
+    "qualname": "_KeepOpenFile"
+   },
+   {
+    "path": "src/click/utils.py",
+    "qualname": "_LazyFile"
+   }
+  ],
+  "id": "q084"
+ },
+ {
+  "type": "callees",
+  "question": "What does `get_completions` call?",
+  "relevant": [
+   {
+    "path": "src/click/shell_completion.py",
+    "qualname": "_resolve_context"
+   },
+   {
+    "path": "src/click/shell_completion.py",
+    "qualname": "_resolve_incomplete"
+   }
+  ],
+  "id": "q085"
+ },
+ {
+  "type": "callees",
+  "question": "What does `confirm` call?",
+  "relevant": [
+   {
+    "path": "src/click/exceptions.py",
+    "qualname": "Abort"
+   },
+   {
+    "path": "src/click/termui.py",
+    "qualname": "_build_prompt"
+   },
+   {
+    "path": "src/click/termui.py",
+    "qualname": "_readline_prompt"
+   },
+   {
+    "path": "src/click/utils.py",
+    "qualname": "echo"
+   }
+  ],
+  "id": "q086"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `get_text_stdout` call?",
+  "relevant": [
+   {
+    "path": "src/click/_compat.py",
+    "qualname": "_force_correct_text_writer"
+   },
+   {
+    "path": "src/click/_compat.py",
+    "qualname": "_get_windows_console_stream"
+   }
+  ],
+  "id": "q087"
+ },
+ {
+  "type": "callees",
+  "question": "What does `_get_text_stderr` call?",
+  "relevant": [
+   {
+    "path": "src/click/_compat.py",
+    "qualname": "_NonClosingTextIOWrapper"
+   },
+   {
+    "path": "src/click/_winconsole.py",
+    "qualname": "ConsoleStream"
+   },
+   {
+    "path": "src/click/_winconsole.py",
+    "qualname": "_WindowsConsoleWriter"
+   }
+  ],
+  "id": "q088"
+ },
+ {
+  "type": "callees",
+  "question": "What does `confirmation_option` call?",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Context.abort"
+   },
+   {
+    "path": "src/click/decorators.py",
+    "qualname": "option"
+   }
+  ],
+  "id": "q089"
+ },
+ {
+  "type": "callees",
+  "question": "What does `should_strip_ansi` call?",
+  "relevant": [
+   {
+    "path": "src/click/_compat.py",
+    "qualname": "_is_jupyter_kernel_output"
+   },
+   {
+    "path": "src/click/_compat.py",
+    "qualname": "isatty"
+   }
+  ],
+  "id": "q090"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `version_option` call?",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Context.exit"
+   },
+   {
+    "path": "src/click/core.py",
+    "qualname": "Context.find_root"
+   },
+   {
+    "path": "src/click/decorators.py",
+    "qualname": "option"
+   },
+   {
+    "path": "src/click/utils.py",
+    "qualname": "echo"
+   }
+  ],
+  "id": "q091"
+ },
+ {
+  "type": "callees",
+  "question": "What does `_process_opts` call?",
+  "relevant": [
+   {
+    "path": "src/click/parser.py",
+    "qualname": "_OptionParser._match_long_opt"
+   },
+   {
+    "path": "src/click/parser.py",
+    "qualname": "_OptionParser._match_short_opt"
+   },
+   {
+    "path": "src/click/parser.py",
+    "qualname": "_normalize_opt"
+   }
+  ],
+  "id": "q092"
+ },
+ {
+  "type": "callees",
+  "question": "What does `write_text` call?",
+  "relevant": [
+   {
+    "path": "src/click/formatting.py",
+    "qualname": "HelpFormatter.write"
+   },
+   {
+    "path": "src/click/formatting.py",
+    "qualname": "wrap_text"
+   }
+  ],
+  "id": "q093"
+ },
+ {
+  "type": "callees",
+  "question": "Which functions does `_get_text_stdin` call?",
+  "relevant": [
+   {
+    "path": "src/click/_compat.py",
+    "qualname": "_NonClosingTextIOWrapper"
+   },
+   {
+    "path": "src/click/_winconsole.py",
+    "qualname": "ConsoleStream"
+   },
+   {
+    "path": "src/click/_winconsole.py",
+    "qualname": "_WindowsConsoleReader"
+   }
+  ],
+  "id": "q094"
+ },
+ {
+  "type": "callees",
+  "question": "What does `exit` call?",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Context.close"
+   },
+   {
+    "path": "src/click/exceptions.py",
+    "qualname": "Exit"
+   }
+  ],
+  "id": "q095"
+ },
+ {
+  "type": "imports",
+  "question": "What imports `src/click/formatting.py`?",
+  "relevant": [
+   {
+    "path": "src/click/__init__.py"
+   },
+   {
+    "path": "src/click/core.py"
+   },
+   {
+    "path": "src/click/testing.py"
+   }
+  ],
+  "id": "q096"
+ },
+ {
+  "type": "imports",
+  "question": "Which files import `src/click/decorators.py`?",
+  "relevant": [
+   {
+    "path": "src/click/__init__.py"
+   },
+   {
+    "path": "src/click/core.py"
+   }
+  ],
+  "id": "q097"
+ },
+ {
+  "type": "imports",
+  "question": "What imports `src/click/termui.py`?",
+  "relevant": [
+   {
+    "path": "src/click/__init__.py"
+   },
+   {
+    "path": "src/click/core.py"
+   },
+   {
+    "path": "src/click/testing.py"
+   }
+  ],
+  "id": "q098"
+ },
+ {
+  "type": "imports",
+  "question": "Which files import `src/click/core.py`?",
+  "relevant": [
+   {
+    "path": "src/click/__init__.py"
+   },
+   {
+    "path": "src/click/decorators.py"
+   },
+   {
+    "path": "src/click/exceptions.py"
+   },
+   {
+    "path": "src/click/globals.py"
+   },
+   {
+    "path": "src/click/parser.py"
+   },
+   {
+    "path": "src/click/shell_completion.py"
+   },
+   {
+    "path": "src/click/testing.py"
+   },
+   {
+    "path": "src/click/types.py"
+   }
+  ],
+  "id": "q099"
+ },
+ {
+  "type": "imports",
+  "question": "What imports `src/click/globals.py`?",
+  "relevant": [
+   {
+    "path": "src/click/__init__.py"
+   },
+   {
+    "path": "src/click/core.py"
+   },
+   {
+    "path": "src/click/decorators.py"
+   },
+   {
+    "path": "src/click/exceptions.py"
+   },
+   {
+    "path": "src/click/termui.py"
+   },
+   {
+    "path": "src/click/utils.py"
+   }
+  ],
+  "id": "q100"
+ },
+ {
+  "type": "imports",
+  "question": "What imports `examples/complex/complex/cli.py`?",
+  "relevant": [
+   {
+    "path": "examples/complex/complex/commands/cmd_init.py"
+   },
+   {
+    "path": "examples/complex/complex/commands/cmd_status.py"
+   }
+  ],
+  "id": "q101"
+ },
+ {
+  "type": "imports",
+  "question": "Which files import `src/click/shell_completion.py`?",
+  "relevant": [
+   {
+    "path": "examples/completion/completion.py"
+   },
+   {
+    "path": "src/click/core.py"
+   },
+   {
+    "path": "src/click/parser.py"
+   },
+   {
+    "path": "src/click/types.py"
+   }
+  ],
+  "id": "q102"
+ },
+ {
+  "type": "imports",
+  "question": "What imports `src/click/_utils.py`?",
+  "relevant": [
+   {
+    "path": "src/click/core.py"
+   },
+   {
+    "path": "src/click/parser.py"
+   }
+  ],
+  "id": "q103"
+ },
+ {
+  "type": "imports",
+  "question": "What imports `src/click/parser.py`?",
+  "relevant": [
+   {
+    "path": "src/click/__init__.py"
+   },
+   {
+    "path": "src/click/core.py"
+   },
+   {
+    "path": "src/click/formatting.py"
+   }
+  ],
+  "id": "q104"
+ },
+ {
+  "type": "imports",
+  "question": "Which files import `src/click/exceptions.py`?",
+  "relevant": [
+   {
+    "path": "src/click/__init__.py"
+   },
+   {
+    "path": "src/click/_termui_impl.py"
+   },
+   {
+    "path": "src/click/core.py"
+   },
+   {
+    "path": "src/click/parser.py"
+   },
+   {
+    "path": "src/click/termui.py"
+   },
+   {
+    "path": "src/click/types.py"
+   },
+   {
+    "path": "src/click/utils.py"
+   }
+  ],
+  "id": "q105"
+ },
+ {
+  "type": "imports",
+  "question": "What imports `src/click/types.py`?",
+  "relevant": [
+   {
+    "path": "src/click/__init__.py"
+   },
+   {
+    "path": "src/click/core.py"
+   },
+   {
+    "path": "src/click/termui.py"
+   }
+  ],
+  "id": "q106"
+ },
+ {
+  "type": "inherits",
+  "question": "What are the subclasses of `_NumberRangeBase`?",
+  "relevant": [
+   {
+    "path": "src/click/types.py",
+    "qualname": "FloatRange"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "IntRange"
+   }
+  ],
+  "id": "q107"
+ },
+ {
+  "type": "inherits",
+  "question": "What are the subclasses of `CompositeParamType`?",
+  "relevant": [
+   {
+    "path": "src/click/types.py",
+    "qualname": "Tuple"
+   }
+  ],
+  "id": "q108"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `Command`?",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Group"
+   },
+   {
+    "path": "src/click/core.py",
+    "qualname": "_BaseCommand"
+   }
+  ],
+  "id": "q109"
+ },
+ {
+  "type": "inherits",
+  "question": "What are the subclasses of `Parameter`?",
+  "relevant": [
+   {
+    "path": "src/click/core.py",
+    "qualname": "Argument"
+   },
+   {
+    "path": "src/click/core.py",
+    "qualname": "Option"
+   }
+  ],
+  "id": "q110"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `ShellComplete`?",
+  "relevant": [
+   {
+    "path": "src/click/shell_completion.py",
+    "qualname": "BashComplete"
+   },
+   {
+    "path": "src/click/shell_completion.py",
+    "qualname": "FishComplete"
+   },
+   {
+    "path": "src/click/shell_completion.py",
+    "qualname": "PowerShellComplete"
+   },
+   {
+    "path": "src/click/shell_completion.py",
+    "qualname": "ZshComplete"
+   }
+  ],
+  "id": "q111"
+ },
+ {
+  "type": "inherits",
+  "question": "What are the subclasses of `FloatParamType`?",
+  "relevant": [
+   {
+    "path": "src/click/types.py",
+    "qualname": "FloatRange"
+   }
+  ],
+  "id": "q112"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `Group`?",
+  "relevant": [
+   {
+    "path": "examples/aliases/aliases.py",
+    "qualname": "AliasedGroup"
+   },
+   {
+    "path": "examples/complex/complex/cli.py",
+    "qualname": "ComplexCLI"
+   },
+   {
+    "path": "src/click/core.py",
+    "qualname": "CommandCollection"
+   },
+   {
+    "path": "src/click/core.py",
+    "qualname": "_MultiCommand"
+   }
+  ],
+  "id": "q113"
+ },
+ {
+  "type": "inherits",
+  "question": "What are the subclasses of `ParamType`?",
+  "relevant": [
+   {
+    "path": "examples/validation/validation.py",
+    "qualname": "URL"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "BoolParamType"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "Choice"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "CompositeParamType"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "DateTime"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "File"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "FuncParamType"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "Path"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "StringParamType"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "UUIDParameterType"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "UnprocessedParamType"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "_NumberParamTypeBase"
+   }
+  ],
+  "id": "q114"
+ },
+ {
+  "type": "inherits",
+  "question": "What are the subclasses of `ParamTypeInfoDict`?",
+  "relevant": [
+   {
+    "path": "src/click/types.py",
+    "qualname": "ChoiceInfoDict"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "DateTimeInfoDict"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "FileInfoDict"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "FuncParamTypeInfoDict"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "NumberRangeInfoDict"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "PathInfoDict"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "TupleInfoDict"
+   }
+  ],
+  "id": "q115"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `IntParamType`?",
+  "relevant": [
+   {
+    "path": "src/click/types.py",
+    "qualname": "IntRange"
+   }
+  ],
+  "id": "q116"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `_NumberParamTypeBase`?",
+  "relevant": [
+   {
+    "path": "src/click/types.py",
+    "qualname": "FloatParamType"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "IntParamType"
+   },
+   {
+    "path": "src/click/types.py",
+    "qualname": "_NumberRangeBase"
+   }
+  ],
+  "id": "q117"
+ },
+ {
+  "type": "inherits",
+  "question": "Which classes extend `ClickException`?",
+  "relevant": [
+   {
+    "path": "src/click/exceptions.py",
+    "qualname": "FileError"
+   },
+   {
+    "path": "src/click/exceptions.py",
+    "qualname": "UsageError"
+   }
+  ],
+  "id": "q118"
+ },
+ {
+  "type": "docstring",
+  "question": "Where is the function that does the following: Opens a file or URL In the default application.",
+  "relevant": [
+   {
+    "path": "examples/termui/termui.py",
+    "qualname": "open"
+   }
+  ],
+  "id": "q119"
+ }
+]

@@ -1,0 +1,269 @@
+{
+  "repo": "requests",
+  "embedder": "hash",
+  "reranker": "lexical",
+  "index": {
+    "files": 66,
+    "chunks": 896,
+    "symbols": 696,
+    "index_seconds": 0.61
+  },
+  "n_questions": 120,
+  "results": {
+    "dense only": {
+      "recall@1": 0.328,
+      "recall@5": 0.586,
+      "recall@10": 0.673,
+      "mrr": 0.497,
+      "latency_ms": 0.5,
+      "by_type": {
+        "callees": {
+          "recall@1": 0.046,
+          "recall@5": 0.131,
+          "recall@10": 0.131,
+          "mrr": 0.204,
+          "n": 18
+        },
+        "callers": {
+          "recall@1": 0.062,
+          "recall@5": 0.424,
+          "recall@10": 0.528,
+          "mrr": 0.243,
+          "n": 24
+        },
+        "definition": {
+          "recall@1": 0.667,
+          "recall@5": 0.778,
+          "recall@10": 1.0,
+          "mrr": 0.737,
+          "n": 18
+        },
+        "docstring": {
+          "recall@1": 0.667,
+          "recall@5": 0.917,
+          "recall@10": 0.917,
+          "mrr": 0.757,
+          "n": 36
+        },
+        "imports": {
+          "recall@1": 0.065,
+          "recall@5": 0.413,
+          "recall@10": 0.472,
+          "mrr": 0.416,
+          "n": 12
+        },
+        "inherits": {
+          "recall@1": 0.021,
+          "recall@5": 0.489,
+          "recall@10": 0.753,
+          "mrr": 0.385,
+          "n": 12
+        }
+      }
+    },
+    "bm25 only": {
+      "recall@1": 0.386,
+      "recall@5": 0.676,
+      "recall@10": 0.78,
+      "mrr": 0.575,
+      "latency_ms": 0.7,
+      "by_type": {
+        "callees": {
+          "recall@1": 0.028,
+          "recall@5": 0.104,
+          "recall@10": 0.122,
+          "mrr": 0.119,
+          "n": 18
+        },
+        "callers": {
+          "recall@1": 0.0,
+          "recall@5": 0.722,
+          "recall@10": 0.903,
+          "mrr": 0.342,
+          "n": 24
+        },
+        "definition": {
+          "recall@1": 0.611,
+          "recall@5": 0.944,
+          "recall@10": 1.0,
+          "mrr": 0.753,
+          "n": 18
+        },
+        "docstring": {
+          "recall@1": 0.917,
+          "recall@5": 0.972,
+          "recall@10": 1.0,
+          "mrr": 0.948,
+          "n": 36
+        },
+        "imports": {
+          "recall@1": 0.136,
+          "recall@5": 0.34,
+          "recall@10": 0.52,
+          "mrr": 0.606,
+          "n": 12
+        },
+        "inherits": {
+          "recall@1": 0.021,
+          "recall@5": 0.489,
+          "recall@10": 0.789,
+          "mrr": 0.307,
+          "n": 12
+        }
+      }
+    },
+    "hybrid (dense+bm25)": {
+      "recall@1": 0.331,
+      "recall@5": 0.611,
+      "recall@10": 0.714,
+      "mrr": 0.496,
+      "latency_ms": 0.8,
+      "by_type": {
+        "callees": {
+          "recall@1": 0.028,
+          "recall@5": 0.104,
+          "recall@10": 0.178,
+          "mrr": 0.163,
+          "n": 18
+        },
+        "callers": {
+          "recall@1": 0.0,
+          "recall@5": 0.569,
+          "recall@10": 0.705,
+          "mrr": 0.278,
+          "n": 24
+        },
+        "definition": {
+          "recall@1": 0.667,
+          "recall@5": 0.889,
+          "recall@10": 1.0,
+          "mrr": 0.763,
+          "n": 18
+        },
+        "docstring": {
+          "recall@1": 0.75,
+          "recall@5": 0.944,
+          "recall@10": 0.972,
+          "mrr": 0.844,
+          "n": 36
+        },
+        "imports": {
+          "recall@1": 0.0,
+          "recall@5": 0.156,
+          "recall@10": 0.298,
+          "mrr": 0.147,
+          "n": 12
+        },
+        "inherits": {
+          "recall@1": 0.021,
+          "recall@5": 0.489,
+          "recall@10": 0.753,
+          "mrr": 0.34,
+          "n": 12
+        }
+      }
+    },
+    "hybrid + graph": {
+      "recall@1": 0.442,
+      "recall@5": 0.916,
+      "recall@10": 0.991,
+      "mrr": 0.725,
+      "latency_ms": 0.9,
+      "by_type": {
+        "callees": {
+          "recall@1": 0.141,
+          "recall@5": 0.916,
+          "recall@10": 0.98,
+          "mrr": 0.657,
+          "n": 18
+        },
+        "callers": {
+          "recall@1": 0.507,
+          "recall@5": 0.958,
+          "recall@10": 1.0,
+          "mrr": 0.769,
+          "n": 24
+        },
+        "definition": {
+          "recall@1": 0.944,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.972,
+          "n": 18
+        },
+        "docstring": {
+          "recall@1": 0.528,
+          "recall@5": 0.861,
+          "recall@10": 1.0,
+          "mrr": 0.664,
+          "n": 36
+        },
+        "imports": {
+          "recall@1": 0.136,
+          "recall@5": 0.843,
+          "recall@10": 0.972,
+          "mrr": 0.708,
+          "n": 12
+        },
+        "inherits": {
+          "recall@1": 0.062,
+          "recall@5": 0.939,
+          "recall@10": 0.967,
+          "mrr": 0.569,
+          "n": 12
+        }
+      }
+    },
+    "hybrid + graph + rerank": {
+      "recall@1": 0.683,
+      "recall@5": 0.978,
+      "recall@10": 0.997,
+      "mrr": 0.948,
+      "latency_ms": 7.0,
+      "by_type": {
+        "callees": {
+          "recall@1": 0.383,
+          "recall@5": 0.991,
+          "recall@10": 1.0,
+          "mrr": 1.0,
+          "n": 18
+        },
+        "callers": {
+          "recall@1": 0.601,
+          "recall@5": 0.958,
+          "recall@10": 1.0,
+          "mrr": 0.853,
+          "n": 24
+        },
+        "definition": {
+          "recall@1": 0.889,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.935,
+          "n": 18
+        },
+        "docstring": {
+          "recall@1": 0.944,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.972,
+          "n": 36
+        },
+        "imports": {
+          "recall@1": 0.291,
+          "recall@5": 0.935,
+          "recall@10": 1.0,
+          "mrr": 1.0,
+          "n": 12
+        },
+        "inherits": {
+          "recall@1": 0.596,
+          "recall@5": 0.944,
+          "recall@10": 0.972,
+          "mrr": 0.958,
+          "n": 12
+        }
+      }
+    }
+  }
+}

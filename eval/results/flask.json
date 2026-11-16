@@ -1,0 +1,269 @@
+{
+  "repo": "flask",
+  "embedder": "hash",
+  "reranker": "lexical",
+  "index": {
+    "files": 168,
+    "chunks": 1322,
+    "symbols": 902,
+    "index_seconds": 0.95
+  },
+  "n_questions": 120,
+  "results": {
+    "dense only": {
+      "recall@1": 0.4,
+      "recall@5": 0.587,
+      "recall@10": 0.663,
+      "mrr": 0.51,
+      "latency_ms": 0.4,
+      "by_type": {
+        "callees": {
+          "recall@1": 0.0,
+          "recall@5": 0.028,
+          "recall@10": 0.028,
+          "mrr": 0.014,
+          "n": 18
+        },
+        "callers": {
+          "recall@1": 0.042,
+          "recall@5": 0.538,
+          "recall@10": 0.667,
+          "mrr": 0.293,
+          "n": 24
+        },
+        "definition": {
+          "recall@1": 0.556,
+          "recall@5": 0.722,
+          "recall@10": 0.889,
+          "mrr": 0.638,
+          "n": 18
+        },
+        "docstring": {
+          "recall@1": 0.944,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.968,
+          "n": 36
+        },
+        "imports": {
+          "recall@1": 0.042,
+          "recall@5": 0.218,
+          "recall@10": 0.336,
+          "mrr": 0.265,
+          "n": 12
+        },
+        "inherits": {
+          "recall@1": 0.208,
+          "recall@5": 0.452,
+          "recall@10": 0.583,
+          "mrr": 0.373,
+          "n": 12
+        }
+      }
+    },
+    "bm25 only": {
+      "recall@1": 0.412,
+      "recall@5": 0.649,
+      "recall@10": 0.72,
+      "mrr": 0.546,
+      "latency_ms": 0.7,
+      "by_type": {
+        "callees": {
+          "recall@1": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.014,
+          "mrr": 0.008,
+          "n": 18
+        },
+        "callers": {
+          "recall@1": 0.062,
+          "recall@5": 0.729,
+          "recall@10": 0.917,
+          "mrr": 0.397,
+          "n": 24
+        },
+        "definition": {
+          "recall@1": 0.611,
+          "recall@5": 0.944,
+          "recall@10": 0.944,
+          "mrr": 0.745,
+          "n": 18
+        },
+        "docstring": {
+          "recall@1": 0.972,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.986,
+          "n": 36
+        },
+        "imports": {
+          "recall@1": 0.0,
+          "recall@5": 0.208,
+          "recall@10": 0.304,
+          "mrr": 0.205,
+          "n": 12
+        },
+        "inherits": {
+          "recall@1": 0.167,
+          "recall@5": 0.41,
+          "recall@10": 0.625,
+          "mrr": 0.37,
+          "n": 12
+        }
+      }
+    },
+    "hybrid (dense+bm25)": {
+      "recall@1": 0.429,
+      "recall@5": 0.643,
+      "recall@10": 0.72,
+      "mrr": 0.548,
+      "latency_ms": 1.0,
+      "by_type": {
+        "callees": {
+          "recall@1": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.046,
+          "mrr": 0.016,
+          "n": 18
+        },
+        "callers": {
+          "recall@1": 0.104,
+          "recall@5": 0.667,
+          "recall@10": 0.792,
+          "mrr": 0.389,
+          "n": 24
+        },
+        "definition": {
+          "recall@1": 0.667,
+          "recall@5": 0.944,
+          "recall@10": 1.0,
+          "mrr": 0.754,
+          "n": 18
+        },
+        "docstring": {
+          "recall@1": 0.944,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.972,
+          "n": 36
+        },
+        "imports": {
+          "recall@1": 0.042,
+          "recall@5": 0.231,
+          "recall@10": 0.343,
+          "mrr": 0.24,
+          "n": 12
+        },
+        "inherits": {
+          "recall@1": 0.208,
+          "recall@5": 0.452,
+          "recall@10": 0.708,
+          "mrr": 0.388,
+          "n": 12
+        }
+      }
+    },
+    "hybrid + graph": {
+      "recall@1": 0.514,
+      "recall@5": 0.928,
+      "recall@10": 1.0,
+      "mrr": 0.774,
+      "latency_ms": 1.2,
+      "by_type": {
+        "callees": {
+          "recall@1": 0.116,
+          "recall@5": 0.964,
+          "recall@10": 1.0,
+          "mrr": 0.62,
+          "n": 18
+        },
+        "callers": {
+          "recall@1": 0.67,
+          "recall@5": 0.99,
+          "recall@10": 1.0,
+          "mrr": 0.908,
+          "n": 24
+        },
+        "definition": {
+          "recall@1": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 1.0,
+          "n": 18
+        },
+        "docstring": {
+          "recall@1": 0.528,
+          "recall@5": 0.889,
+          "recall@10": 1.0,
+          "mrr": 0.678,
+          "n": 36
+        },
+        "imports": {
+          "recall@1": 0.172,
+          "recall@5": 0.749,
+          "recall@10": 1.0,
+          "mrr": 0.75,
+          "n": 12
+        },
+        "inherits": {
+          "recall@1": 0.375,
+          "recall@5": 0.942,
+          "recall@10": 1.0,
+          "mrr": 0.708,
+          "n": 12
+        }
+      }
+    },
+    "hybrid + graph + rerank": {
+      "recall@1": 0.727,
+      "recall@5": 0.977,
+      "recall@10": 0.992,
+      "mrr": 0.955,
+      "latency_ms": 9.4,
+      "by_type": {
+        "callees": {
+          "recall@1": 0.442,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 1.0,
+          "n": 18
+        },
+        "callers": {
+          "recall@1": 0.67,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.906,
+          "n": 24
+        },
+        "definition": {
+          "recall@1": 0.944,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "mrr": 0.956,
+          "n": 18
+        },
+        "docstring": {
+          "recall@1": 0.917,
+          "recall@5": 0.944,
+          "recall@10": 0.972,
+          "mrr": 0.935,
+          "n": 36
+        },
+        "imports": {
+          "recall@1": 0.321,
+          "recall@5": 0.965,
+          "recall@10": 1.0,
+          "mrr": 1.0,
+          "n": 12
+        },
+        "inherits": {
+          "recall@1": 0.777,
+          "recall@5": 0.969,
+          "recall@10": 1.0,
+          "mrr": 1.0,
+          "n": 12
+        }
+      }
+    }
+  }
+}
